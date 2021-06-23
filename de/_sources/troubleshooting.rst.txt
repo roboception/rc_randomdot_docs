@@ -1,0 +1,90 @@
+Fehlerbehebung
+
+LED-Farben
+
+Während des Bootvorgangs des
+
+rc_visard
+
+ blitzt der
+
+rc_randomdot
+
+ Projektor mehrmals auf. Die Status-LED sollte dann nahezu sofort grün
+leuchten. Im Normalbetrieb sind folgende Farben der
+
+rc_randomdot
+
+ LED zu beobachten.
+
+rc_randomdot Status-LED Farben      LED-Farbe  rc_randomdot Status
+Rot  Übertemperatur-Warnung: Die Projektortemperatur hat 75°C
+überschritten  blau  Triggersignal aktiv  Grün  rc_randomdot ist
+bereit
+
+Hardware-Probleme
+
+LED leuchtet nicht
+
+Der
+
+rc_randomdot
+
+ startet nicht.
+
+Stellen Sie sicher, dass die Kabel richtig angeschlossen und gesichert
+sind.
+
+Stellen Sie sicher, dass eine ausreichende Gleichspannung (22 V bis 29
+V) mit korrekter Polarität am Spannungsversorgungsstecker an den mit
+Power und Ground gekennzeichneten Pins anliegt, wie in pin assignment
+specification\:(Section \ref{hardware_spec:tab-power-pin-assignments})
+beschrieben. Der Anschluss des Sensors an Spannungen außerhalb des
+spezifizierten Bereichs, an Wechselstrom, mit umgekehrter Polarität
+oder an eine Versorgung mit Spannungsspitzen führt zu dauerhaften
+Hardwareschäden.
+
+LED wird rot, während der Projektor normal zu funktionieren scheint
+
+Dies kann auf eine hohe Gehäuse- und Power-LED-Temperatur hinweisen.
+Der Projektor könnte in einer Position montiert sein, die den freien
+Luftstrom um die Kühlrippen behindert.
+
+Kühlrippen und Gehäuse reinigen.
+
+Achten Sie auf einen Freiraum von mindestens 10 cm in alle Richtungen
+um die Kühlrippen herum, um eine ausreichende konvektive Kühlung zu
+gewährleisten.
+
+Stellen Sie sicher, dass die Umgebungstemperatur im angegebenen
+Bereich liegt.
+
+Der Projektor kann sich ausschalten, wenn die Kühlung unzureichend ist
+oder die Umgebungstemperatur den angegebenen Bereich überschreitet.
+
+Zuverlässigkeitsprobleme und/oder mechanische Schäden
+
+Dies kann ein Hinweis darauf sein, dass die Umgebungsbedingungen
+(Vibration, Schock, Resonanz und Temperatur) außerhalb des
+spezifizierten Bereichs liegen. Bitte beachten Sie die
+
+specification of environmental conditions
+
+.
+
+Der Betrieb des rc_randomdot außerhalb der spezifizierten
+Umgebungsbedingungen kann zu Schäden führen und führt zum Erlöschen
+der Garantie.
+
+Elektrischer Schlag beim Berühren des Projektors
+
+Dies deutet auf einen elektrischen Fehler im Sensor, in der
+Verkabelung oder in der Stromversorgung oder im angrenzenden System
+hin.
+
+Schalten Sie die Anlage sofort stromlos, trennen Sie die Kabel und
+lassen Sie die Geräte und Installation von einer Elektrofachkraft
+überprüfen.
+
+Stellen Sie sicher, dass das Projektorgehäuse ordnungsgemäß geerdet
+ist; prüfen Sie auf große Erdschleifen.

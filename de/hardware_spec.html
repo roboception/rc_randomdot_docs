@@ -1,0 +1,697 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="de" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hardware-Spezifikation &mdash; rc_randomdot 0.9 Dokumentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/default.css" type="text/css" />
+  
+
+  
+
+  
+
+  
+
+  
+        <link rel="index" title="Stichwortverzeichnis"
+              href="genindex.html"/>
+        <link rel="search" title="Suche" href="search.html"/>
+    <link rel="top" title="rc_randomdot 0.9 Dokumentation" href="index.html"/>
+        <link rel="next" title="Installation" href="installation.html"/>
+        <link rel="prev" title="Sicherheit" href="safety.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> rc_randomdot
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                01
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Suche" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="revisions.html">Einführung</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="general.html">Überblick</a></li>
+<li class="toctree-l2"><a class="reference internal" href="warranty.html">Garantie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html">Zulassungen und Normen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="standards.html#approvals">Genehmigungen</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html#electronical-and-safety-standards">Elektronische und Sicherheitsstandards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html#environmental-regulation">Umweltvorschriften</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="standards.html#eu-rohs-directive">EU-RoHS-Richtlinie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="standards.html#reach-regulation">REACH-Verordnung</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html#available-certificates">Verfügbare Zertifikate</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="safety.html">Sicherheit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="safety.html#general-warnings">Allgemeine Sicherheitshinweise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="safety.html#intended-use">Verwendungszweck</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware-Spezifikation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#scope-of-delivery">Umfang der Lieferung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technical-specification">Technische Spezifikation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mechanical-dimensions">Mechanische Abmessungen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#environmental-and-operating-conditions">Umwelt- und Betriebsbedingungen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#power-supply-specifications">Spezifikationen für die Spannungsversorgung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wiring">Verdrahtung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#electrical-properties">Elektrische Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optical-properties">Optische Eigenschaften</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#mounting">Montage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#power-up">Einschalten</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#operating-the-projector">Bedienung des Projektors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#adjusting-focus-and-aperture-settings">Anpassen von Fokus- und Blendeneinstellungen</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance.html">Wartung</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="maintenance.html#lens-cleaning">Reinigung der Linse</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accessories.html">Zubehör</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accessories.html#connectivity-kit">Anschlussset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessories.html#wiring">Verdrahtung</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="accessories.html#power-connections">Stromanschluss</a></li>
+<li class="toctree-l3"><a class="reference internal" href="accessories.html#power-supplies">Netzteile</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="accessories.html#spare-parts">Ersatzteile</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Fehlerbehebung</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#led-colors">LED-Farben</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#hardware-issues">Hardware-Probleme</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Kontakt</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contact.html#support">Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contact.html#address">Adresse</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">rc_randomdot</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Dokumentation</a> &raquo;</li>
+        
+      <li>Hardware-Spezifikation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="hardware-specification">
+<span id="sect-hardware-specification"></span><h1>Hardware-Spezifikation<a class="headerlink" href="#hardware-specification" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<p class="last">Die folgenden Hardware-Spezifikationen dienen als allgemeine Referenz; es können Unterschiede zum Produkt bestehen.</p>
+</div>
+<div class="section" id="scope-of-delivery">
+<h2>Umfang der Lieferung<a class="headerlink" href="#scope-of-delivery" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Der Standard Lieferumfang für einen <em>rc_randomdot</em> umfasst den <em>rc_randomdot</em> Projektor, die Montagehalterung und 4 Schrauben, ein 30 cm langes Kabel zum Anschluss des <em>rc_randomdot</em> an den <em>rc_visard</em> und eine Schnellstartanleitung. Das vollständige Handbuch ist in digitaler Form unter <a class="reference external" href="http://www.roboception.com/documentation">http://www.roboception.com/documentation</a> verfügbar.</p>
+<p>Das folgende Bild zeigt die wichtigen Teile des <em>rc_randomdot</em>, auf die später in der Dokumentation verwiesen wird.</p>
+<div class="figure align-center" id="id1">
+<span id="fig-rd-parts"></span><span id="index-0"></span><a class="reference internal image-reference" href="_images/rd_parts_de.png"><img alt="_images/rd_parts_de.png" src="_images/rd_parts_de.png" style="width: 140mm;" /></a>
+<p class="caption"><span class="caption-number">Abb. 2 </span><span class="caption-text">Teilebeschreibung</span></p>
+</div>
+</div>
+<div class="section" id="technical-specification">
+<h2>Technische Spezifikation<a class="headerlink" href="#technical-specification" title="Link zu dieser Überschrift">¶</a></h2>
+<span class="target" id="index-1"></span><span id="tab-common-hardware-specifications"></span><table border="1" class="docutils" id="technische-daten-fur-den-rc-randomdot-white">
+<caption><span class="caption-number">Tab. 1 </span><span class="caption-text">Technische Daten für den <em>rc_randomdot</em> <em>White</em></span><a class="headerlink" href="#technische-daten-fur-den-rc-randomdot-white" title="Link zu dieser Tabelle">¶</a></caption>
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head"><em>rc_randomdot</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Beleuchtungsmodus</td>
+<td>Stroboskop</td>
+</tr>
+<tr class="row-odd"><td>Wellenlänge</td>
+<td>Weiß (5500 K)</td>
+</tr>
+<tr class="row-even"><td>Arbeitsabstand</td>
+<td>500 mm bis 3000 mm</td>
+</tr>
+<tr class="row-odd"><td>Projektionsfeld</td>
+<td>62° x 48° (Diagonale 75°)</td>
+</tr>
+<tr class="row-even"><td>Objektiv (C-Mount)</td>
+<td>1“, 12 mm, f min 1:1,4</td>
+</tr>
+<tr class="row-odd"><td>Objektiv Typ</td>
+<td>VS Technology VS-1214H1</td>
+</tr>
+<tr class="row-even"><td>Netzteil</td>
+<td>24 V (22 V bis 29 V), 44 W (68 W einschließlich <em>rc_visard</em>)</td>
+</tr>
+<tr class="row-odd"><td>Steckverbinder</td>
+<td>M12, 8-polig, A-codiert</td>
+</tr>
+<tr class="row-even"><td>Größe (B x H x L)</td>
+<td>70 mm x 70 mm x 152 mm</td>
+</tr>
+<tr class="row-odd"><td>Gewicht</td>
+<td>~ 660 g</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="mechanical-dimensions">
+<h2>Mechanische Abmessungen<a class="headerlink" href="#mechanical-dimensions" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="figure align-center" id="id2">
+<span id="index-2"></span><a class="reference internal image-reference" href="_images/rd_000_size_de.png"><img alt="_images/rd_000_size_de.png" src="_images/rd_000_size_de.png" style="width: 140mm;" /></a>
+<p class="caption"><span class="caption-number">Abb. 3 </span><span class="caption-text">Gesamtabmessungen des <em>rc_randomdot</em> <em>White</em></span></p>
+</div>
+<p id="index-3">CAD-Modelle des <em>rc_randomdot</em> können unter <a class="reference external" href="http://www.roboception.com/download">http://www.roboception.com/download</a> heruntergeladen werden. Die CAD-Modelle werden im Ist-Zustand zur Verfügung gestellt, ohne Garantie auf Korrektheit.</p>
+</div>
+<div class="section" id="environmental-and-operating-conditions">
+<h2>Umwelt- und Betriebsbedingungen<a class="headerlink" href="#environmental-and-operating-conditions" title="Link zu dieser Überschrift">¶</a></h2>
+<p id="index-4">Der <em>rc_randomdot</em> ist für den industriellen Einsatz konzipiert. Die Umgebungsbedingungen für Lagerung, Transport und Betrieb, nach in <a class="reference internal" href="#tab-hardware-environment"><span class="std std-numref">Tab. 2</span></a> müssen beachtet werden.</p>
+<span id="tab-hardware-environment"></span><table border="1" class="docutils" id="umgebungsbedingungen">
+<caption><span class="caption-number">Tab. 2 </span><span class="caption-text">Umgebungsbedingungen</span><a class="headerlink" href="#umgebungsbedingungen" title="Link zu dieser Tabelle">¶</a></caption>
+<colgroup>
+<col width="41%" />
+<col width="59%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head"><em>rc_randomdot</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Lager-/Transporttemperatur</td>
+<td>-25 °C bis 70 °C</td>
+</tr>
+<tr class="row-odd"><td>Betriebstemperatur</td>
+<td>0 °C bis 45 °C</td>
+</tr>
+<tr class="row-even"><td>Relative Luftfeuchtigkeit (nicht kondensierend)</td>
+<td>20 % to 80 %</td>
+</tr>
+<tr class="row-odd"><td>Vibration</td>
+<td>2.5 g</td>
+</tr>
+<tr class="row-even"><td>Schock</td>
+<td>25 g</td>
+</tr>
+<tr class="row-odd"><td>Schutzklasse</td>
+<td>IP54</td>
+</tr>
+<tr class="row-even"><td>Andere</td>
+<td><ul class="first last simple">
+<li>Frei von korrosiven Flüssigkeiten oder Gasen</li>
+<li>Frei von explosiven Flüssigkeiten oder Gasen</li>
+<li>Frei von starken elektromagnetischen Störungen</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="index-5">Der <em>rc_randomdot</em> ist für eine Betriebstemperatur (Umgebung) von 0 °C bis 45 °C ausgelegt und arbeitet mit einer konvektiven (passiven) Kühlung. Ein ungehinderter Luftstrom, insbesondere um die Kühlrippen, muss während des Einsatzes gewährleistet sein. Der <em>rc_randomdot</em> darf nur über die mitgelieferte mechanische Montageschnittstelle auf den <em>rc_visard</em> montiert werden, wobei alle Gehäuseteile unbedeckt bleiben müssen. Ein Freiraum von mindestens 10 cm in alle Richtungen zwischen den beiden Geräten und ein ausreichender Luftaustausch mit der Umgebung ist erforderlich, um eine ausreichende Kühlung zu gewährleisten. Die Kühlrippen müssen frei von Schmutz und anderen Verunreinigungen sein.</p>
+<p id="index-6">Die Gehäusetemperatur hängt von der Belichtungszeit, dem Belichtungsmodus, der Kameraausrichtung und den Umgebungstemperaturen ab. Wenn die Temperatur der Power-LED des Projektors 75 °C überschreitet (entsprechend einer Gehäusetemperatur von ca. 60 °C), leuchtet die Status LED an der Vorderseite rot.</p>
+</div>
+<div class="section" id="power-supply-specifications">
+<h2>Spezifikationen für die Spannungsversorgung<a class="headerlink" href="#power-supply-specifications" title="Link zu dieser Überschrift">¶</a></h2>
+<p id="index-7">Der <em>rc_randomdot</em> muss durch einer Gleichspannungsquelle versorgt werden und versorgt seinerseits einen angeschlossenen <em>rc_visard</em>. Im Standardpaket des <em>rc_randomdot</em> ist kein Gleichspannungsnetzteil enthalten. Für die Ersteinrichtung kann das im Connectivity Kit enthaltene Netzteil verwendet werden. Für eine dauerhafte Installation liegt es in der Verantwortung des Kunden, eine geeignete Gleichstromversorgung bereitzustellen. Jedes Paar <em>rc_randomdot</em> und <em>rc_visard</em> muss an eine separate Spannungsversorgung angeschlossen werden. Der Anschluss an das Hausstromnetz ist nur über eine Stromversorgung nach EN 62368-1 zulässig.</p>
+<span id="tab-hardware-power"></span><table border="1" class="docutils" id="absolute-maximalwerte-fur-die-spannungsversorgung">
+<caption><span class="caption-number">Tab. 3 </span><span class="caption-text">Absolute Maximalwerte für die Spannungsversorgung</span><a class="headerlink" href="#absolute-maximalwerte-fur-die-spannungsversorgung" title="Link zu dieser Tabelle">¶</a></caption>
+<colgroup>
+<col width="32%" />
+<col width="14%" />
+<col width="14%" />
+<col width="41%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head"><em>Min</em></th>
+<th class="head"><em>Nennwert</em></th>
+<th class="head"><em>Max</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Versorgungsspannung</td>
+<td>22.0 V</td>
+<td>24 V</td>
+<td>29.0 V</td>
+</tr>
+<tr class="row-odd"><td>Maximale Leistungsaufnahme</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>44 W</td>
+</tr>
+<tr class="row-even"><td>Maximale Leistungsaufnahme inkl. <em>rc_visard</em></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>68 W</td>
+</tr>
+<tr class="row-odd"><td>Überstromschutz</td>
+<td colspan="3">Die Versorgung muss mit maximal 4 A abgesichert sein</td>
+</tr>
+<tr class="row-even"><td>Einhaltung von Normen</td>
+<td colspan="3">siehe <a class="reference internal" href="standards.html#sect-standards"><span class="std std-ref">Elektronische und Sicherheitsstandards</span></a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Das Überschreiten der maximalen Leistungswerte kann zur Beschädigung des <em>rc_randomdot</em>, <em>rc_visard</em>, des Netzteils und der angeschlossenen Geräte führen.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Jedes zusammengehörende Gerätepaar <em>rc_randomdot</em> und <em>rc_visard</em> muss aus einer separaten Spannungsversorgung gespeist werden.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Der Anschluss an das Hausstromnetz ist nur über eine nach EN 62368 und als EN55011 Klasse B zertifizierte Stromversorgung zulässig.</p>
+</div>
+</div>
+<div class="section" id="wiring">
+<span id="sect-wiring"></span><h2>Verdrahtung<a class="headerlink" href="#wiring" title="Link zu dieser Überschrift">¶</a></h2>
+<p id="index-8">Im Lieferumfang ist nur ein 30 cm langes Kabel enthalten, das den <em>rc_randomdot</em> mit dem <em>rc_visard</em> verbindet. Es liegt in der Verantwortung des Kunden, die richtige Verkabelung für den Anschluss des <em>rc_randomdot</em> an die Stromversorgung zu beschaffen. Einen Vorschlag für Komponenten finden Sie unter <a class="reference internal" href="accessories.html#sect-accessories"><span class="std std-ref">Zubehör</span></a> .</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Ein ordnungsgemäßes Kabelmanagement ist zwingend erforderlich. Die Verkabelung muss immer mit einer Zugentlastungsschelle am <em>rc_visard</em> / <em>rc_randomdot</em> Halter befestigt werden, damit keine Kräfte durch Kabelbewegungen auf die M12-Steckverbinder der Geräte einwirken. In Roboteranwendungen muss genügend Spielraum vorhanden sein, um den vollen Bewegungsumfang des <em>rc_visard</em> und <em>rc_randomdot</em> zu ermöglichen, ohne die Kabel zu belasten. Die Mindestbiegeradien der Kabel müssen beachtet werden.</p>
+</div>
+<p>Der <em>rc_randomdot</em> verfügt über einen 8-poligen, A-kodierten M12-Steckverbinder für die Stromversorgung und GPIO-Anschlüsse sowie über eine 8-polige, A-kodierte M12-Buchse für die Verbindung mit dem <em>rc_visard</em>. Beide Steckverbinder befinden sich auf der linken Seite des <em>rc_randomdot</em>, wie in <a class="reference internal" href="#fig-rd-parts"><span class="std std-numref">Abb. 2</span></a> angegeben. Typ und Ausrichtung der Anschlüsse sind in <a class="reference internal" href="#fig-pin-assignments"><span class="std std-numref">Abb. 4</span></a> angegeben.</p>
+<p>Die Anschlüsse sind so gedreht, dass die standardmäßigen 90° abgewinkelten Anschlüsse horizontal zur Rückseite des Projektors herausgeführt werden.</p>
+<p>Die Spannungsversorgung muss an den oberen (Stecker) M12-Anschluss des <em>rc_randomdot</em> angeschlossen werden. Achten Sie unbedingt auf die Polarität Ihres Netzteils, da eine Verpolung den <em>rc_randomdot</em> beschädigt. Der untere (Buchse) M12-Anschluss wird mit dem mitgelieferten 30 cm langen geschirmten M12-Kabel an den unteren M12-Stecker des <em>rc_visard</em> angeschlossen.</p>
+<div class="figure align-center" id="id3">
+<span id="fig-pin-assignments"></span><a class="reference internal image-reference" href="_images/rd_connect_de.png"><img alt="_images/rd_connect_de.png" src="_images/rd_connect_de.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-number">Abb. 4 </span><span class="caption-text">Pinpositionen für Power IN/GPIO (oben) und <em>rc_visard</em> (unten) Anschlüsse</span></p>
+</div>
+<p id="index-9">Die Pinbelegung des Power IN-Anschlusses ist in <a class="reference internal" href="#tab-power-pin-assignments"><span class="std std-numref">Tab. 4</span></a> angegeben.</p>
+<span id="tab-power-pin-assignments"></span><table border="1" class="docutils" id="pinbelegung-fur-den-power-in-anschluss">
+<caption><span class="caption-number">Tab. 4 </span><span class="caption-text">Pinbelegung für den Power IN-Anschluss</span><a class="headerlink" href="#pinbelegung-fur-den-power-in-anschluss" title="Link zu dieser Tabelle">¶</a></caption>
+<colgroup>
+<col width="15%" />
+<col width="59%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Pin</strong></th>
+<th class="head"><em>Belegung</em></th>
+<th class="head"><em>Bezug</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>N/C</td>
+<td>/</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>+24 V Leistung IN</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>GPIO In 1 Roboter</td>
+<td>GPIO GND</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>GPIO GND</td>
+<td>GPIO GND</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>GPIO Vcc</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>GPIO Out 1 Roboter (Bildaufnahme)</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>GND</td>
+<td>GND</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>GPIO-Ausgang 2</td>
+<td>chassis GND</td>
+</tr>
+</tbody>
+</table>
+<p>Die Pinbelegung für den <em>rc_visard</em> Steckverbinder ist in <a class="reference internal" href="#tab-rcv-pin-assignments"><span class="std std-numref">Tab. 5</span></a> angegeben.</p>
+<span id="tab-rcv-pin-assignments"></span><table border="1" class="docutils" id="pinbelegung-fur-den-rc-visard-steckerverbinder">
+<caption><span class="caption-number">Tab. 5 </span><span class="caption-text">Pinbelegung für den <em>rc_visard</em> Steckerverbinder</span><a class="headerlink" href="#pinbelegung-fur-den-rc-visard-steckerverbinder" title="Link zu dieser Tabelle">¶</a></caption>
+<colgroup>
+<col width="15%" />
+<col width="59%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Pin</strong></th>
+<th class="head"><em>Belegung</em></th>
+<th class="head"><em>Bezug</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>GPIO Out 2 (Overtemp):
+1 = OK (24 V), 0 = !OK (0 V)</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>+24 V Leistung OUT</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>GPIO Out 1</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>GND (GPIO GND)</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>+24 V (GPIO Vcc)</td>
+<td>GND</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>GPIO In 1 (Trigger)</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>GND</td>
+<td>GND</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>GPIO In 2</td>
+<td>GND</td>
+</tr>
+</tbody>
+</table>
+<p>Alle GPIOs sind durch Optokoppler entkoppelt. <em>GPIO In 1</em> muss mit dem <em>rc_visard</em> <em>GPIO Out 1</em> Signal verbunden werden, das mit dem IOControl-Modul des <em>rc_visard</em> als Belichtungs Sync Signal eingestellt werden kann. Ein logischer High-Pegel des <em>GPIO Out 1</em>-Signals des <em>rc_visard</em> triggert den Projektor. Der Projektor ist <em>EIN</em>, solange <em>GPIO In 1</em> <em>HIGH</em> ist.</p>
+<p><em>GPIO Out 2</em> des Projektors liefert ein „Projektor vorhanden“-Signal, das HIGH ist, wenn ein <em>rc_randomdot</em>-Projektor an den <em>rc_visard</em> angeschlossen ist und normal arbeitet. Das Signal geht bei Fehlerzuständen (Übertemperatur) auf LOW. Der Status der <em>rc_visard</em> GPIOs ist in jedem Bild über die GigE Vision „Chunk Data“ verfügbar. Weitere Details finden Sie unter <a class="reference external" href="https://doc.rc-visard.com/latest/en/gigevision.html#chunk-data">https://doc.rc-visard.com/latest/en/gigevision.html#chunk-data</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Bemerkung</p>
+<ul class="last simple">
+<li>Der Zustand des <em>rc_randomdot</em> <em>GPIO In 1</em> wird auf <em>GPIO Out 1 Robot</em> gespiegelt</li>
+<li>Der Zustand des <em>rc_randomdot</em> <em>GPIO In 2</em> wird auf <em>GPIO Out 2 Robot</em> gespiegelt</li>
+<li>Der Zustand des <em>GPIO In 1 Robot</em> wird auf <em>GPIO Out 1</em> gespiegelt</li>
+</ul>
+</div>
+<p>Pins von nicht verwendeten GPIOs sollten potentialfrei bleiben.</p>
+<p>GPIO-Schaltung und Spezifikationen sind in <a class="reference internal" href="#fig-gpio"><span class="std std-numref">Abb. 5</span></a> dargestellt. Die maximale Nennspannung für <em>GPIO In</em> und <em>GPIO Vcc</em> beträgt 29 V.</p>
+<div class="figure align-center" id="id4">
+<span id="fig-gpio"></span><a class="reference internal image-reference" href="_images/rd_gpio_de.png"><img alt="_images/rd_gpio_de.png" src="_images/rd_gpio_de.png" style="width: 160mm;" /></a>
+<p class="caption"><span class="caption-number">Abb. 5 </span><span class="caption-text">GPIO-Schaltung und -Spezifikationen – keine Signale höher als 29 V anschließen</span></p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Schließen Sie keine Signale mit Spannungen größer als 29 V an den <em>rc_randomdot</em> an.</p>
+</div>
+</div>
+<div class="section" id="electrical-properties">
+<span id="sect-mechanical"></span><h2>Elektrische Eigenschaften<a class="headerlink" href="#electrical-properties" title="Link zu dieser Überschrift">¶</a></h2>
+<p id="index-10">Der Power-LED-Treiber im Inneren des <em>rc_randomdot</em> ist so eingestellt, dass er die LED automatisch entsprechend dem Zustand des Triggerpins <em>GPIO In 1</em> pulst.</p>
+<p>Bei einem kurzen Triggerimpuls (&lt; 25 ms) wird der Projektor mit maximaler Leistung betrieben (Projektor-LED-Maximalstrom von 2,2 A). Ist der Impuls länger, senkt der Treiber den Projektor-LED-Strom automatisch auf 0,4 A (18% des Maximalstroms), um die Projektor-LED vor Schäden zu schützen.</p>
+<div class="figure align-center" id="id5">
+<span id="fig-timing"></span><a class="reference internal image-reference" href="_images/rd_timing_de.png"><img alt="_images/rd_timing_de.png" src="_images/rd_timing_de.png" style="width: 160mm;" /></a>
+<p class="caption"><span class="caption-number">Abb. 6 </span><span class="caption-text">Timing der Projektor-LED in Bezug auf den Pin <em>rc_randomdot</em> <em>GPIO In 1</em></span></p>
+</div>
+<p><a class="reference internal" href="#fig-timing"><span class="std std-numref">Abb. 6</span></a> zeigt die Timing-Eigenschaften der <em>rc_randomdot</em> Projektor-LED in Bezug auf den <em>GPIO In 1</em> des <em>rc_randomdot</em>. Bitte beachten Sie, dass der <em>rc_randomdot</em> für mindestens 25 ms zwischen den Lichtimpulsen ausgeschaltet sein muss. Dies begrenzt die maximal zulässige Belichtungszeit des angeschlossenen <em>rc_visard</em> auf 15 ms im <em>ExposureActive</em>-Modus, um eine Überhitzung der <em>rc_randomdot</em> zu vermeiden. Es liegt in der Verantwortung des Anwenders, die Belichtungszeit der <em>rc_visard</em> entsprechend zu begrenzen. Im Modus <em>ExposureAlternateActive</em> kann die volle Belichtungszeit von 18 ms des <em>rc_visard</em> genutzt werden, da nur jede zweite Belichtung den <em>rc_randomdot</em> triggert.</p>
+<p>Eine ausführliche Beschreibung der <em>rc_visard</em> Projektorsteuerungseinstellungen und Betriebsarten finden Sie im Abschnitt IO und Projektorsteuerung in der vollständigen <em>rc_visard</em> Dokumentation unter <a class="reference external" href="https://doc.rc-visard.com/latest/en/iocontrol.html">https://doc.rc-visard.com/latest/en/iocontrol.html</a>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warnung</p>
+<p class="last">Im Modus <em>ExposureActive</em> muss die Belichtungszeit des <em>rc_visard</em> auf maximal 15 ms begrenzt werden, um eine Überhitzung des <em>rc_randomdot</em> zu vermeiden. Es liegt in der Verantwortung des Anwenders, diese Einstellung sicherzustellen.</p>
+</div>
+<span id="tab-statusled-hardware-specifications"></span><table border="1" class="docutils" id="status-led-farben">
+<caption><span class="caption-number">Tab. 6 </span><span class="caption-text">Status-LED Farben</span><a class="headerlink" href="#status-led-farben" title="Link zu dieser Tabelle">¶</a></caption>
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Farbe der Status-LED</th>
+<th class="head"><em>rc_randomdot</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Rot</td>
+<td>Übertemperaturwarnung Projektor LED-Temperatur &gt; 75 °C</td>
+</tr>
+<tr class="row-odd"><td>Grün</td>
+<td>Bereit</td>
+</tr>
+<tr class="row-even"><td>Blau</td>
+<td>Triggersignal aktiv, Projektor-LED leuchtet</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="optical-properties">
+<h2>Optische Eigenschaften<a class="headerlink" href="#optical-properties" title="Link zu dieser Überschrift">¶</a></h2>
+<p id="index-11">Der <em>rc_randomdot</em> projiziert ein rechteckiges Muster aus semirandomisierten Punkten mit 50% Dichte. Der optimale Arbeitsabstand liegt zwischen 500 mm und 3 m. Der Fokus und die Blende können mit manuellen Einstellungen des C-Mount-Objektivs angepasst werden.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="_images/rd_mask.png"><img alt="_images/rd_mask.png" src="_images/rd_mask.png" style="width: 80mm;" /></a>
+<p class="caption"><span class="caption-number">Abb. 7 </span><span class="caption-text">Projiziertes Muster aus semirandomisierten Punkten mit 50% Dichte</span></p>
+</div>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="_images/rd_000_wavelength.png"><img alt="_images/rd_000_wavelength.png" src="_images/rd_000_wavelength.png" style="width: 100mm;" /></a>
+<p class="caption"><span class="caption-number">Abb. 8 </span><span class="caption-text">Emissionsspektrum des <em>rc_randomdot</em> <em>Weiß</em></span></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="safety.html" class="btn btn-neutral" title="Sicherheit" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Roboception GmbH.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-cog"> Optionen</span>
+      de
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Sprachen</dt>
+        
+          
+          <dd><a href="../en/hardware_spec.html">en</a></dd>
+          
+        
+          
+          <dd><a href="../de/hardware_spec.html">de</a></dd>
+          
+        
+      </dl>
+      
+      
+        <dl>
+          <dt>Downloads</dt>
+          
+            <dd><a href="../pdf/rc_randomdot_manual_en.pdf">PDF (en)</a></dd>
+          
+            <dd><a href="../pdf/rc_randomdot_manual_de.pdf">PDF (de)</a></dd>
+          
+        </dl>
+      
+
+    </div>
+  </div>
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.9',
+            LANGUAGE:'de',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/language_data.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

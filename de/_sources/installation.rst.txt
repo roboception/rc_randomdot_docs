@@ -1,0 +1,300 @@
+Installation
+
+Warnung: Die Anweisungen zu
+
+  rc_randomdot
+
+   und
+
+  rc_visard
+
+   auf
+
+  Sicherheit
+
+   müssen vor der Installation gelesen und verstanden werden.
+
+Montage
+
+Der
+
+rc_randomdot
+
+ bietet zur statischen Montage ein Standard-Stativgewinde an der
+Unterseite, sowie Montagepunkte für die mitgelieferte Halterung an
+beiden Seiten zur Montage auf dem
+
+rc_visard
+
+.
+
+
+Zur Fehlersuche kann der Projektor über das genormte Stativgewinde
+(UNC 1/4"-20) an der Unterseite des Gehäuses montiert werden. Zur
+Montage des
+
+rc_randomdot
+
+ auf einem
+
+rc_visard
+
+ in statischen oder wenig dynamischen Anwendungen (z. B. über
+Roboterzellen oder auf mobilen Plattformen) muss der mitgelieferte
+Montagewinkel mit zwei M4 x 10 8,8 Maschinenschrauben am
+
+rc_visard
+
+ und der Projektor mit zwei M4 x 10 8,8 Maschinenschrauben an den
+Drehpunkten am Montagewinkel befestigt werden. Alle Schrauben müssen
+mit 2,4 Nm angezogen werden und es dürfen nur nylonbeschichtete
+TufLok-Schrauben verwendet werden. Alternativ müssen die Schrauben mit
+einem mittelfesten Schraubensicherungskleber wie z. B. Loctite 243
+gesichert werden. Die maximale Gewindetiefe beträgt 6 mm. Der
+mitgelieferte Montagewinkel ist nicht für dynamische
+Roboteranwendungen geeignet. Es liegt in der Verantwortung des Kunden,
+für eine adäquate Befestigung des
+
+rc_randomdot
+
+ zu sorgen.
+
+Warnung: Bei Festinstallationen muss der
+
+  rc_randomdot
+
+   mit vier Maschinenschrauben M4 x 10 8,8 montiert werden, die mit
+  einem Drehmoment von 2,4 Nm angezogen werden. Die Schrauben müssen
+  Tuflok-beschichtet oder mit Schraubensicherungskleber gesichert
+  sein. Verwenden Sie keine hochfesten Schrauben.
+
+Warnung: Der mitgelieferte Montagewinkel ist nicht für dynamische
+  Roboteranwendungen geeignet. Es liegt in der Verantwortung des
+  Kunden, für eine adäquate Befestigung des
+
+  rc_randomdot
+
+   zu sorgen.
+
+Je nach Arbeitsabstand kann es erforderlich sein, den Projektor nach
+unten zu neigen, um das gesamte Sichtfeld des
+
+rc_visard
+
+ abzudecken. Zum Einstellen der Neigung werden die Schrauben gelöst,
+mit denen der
+
+rc_randomdot
+
+ an der Montagehalterung befestigt ist, der gewünschte Winkel
+eingestellt, und die Schrauben erneut mit 2,4 Nm angezogen. TufLok
+Schrauben können eine begrenzte Anzahl von Zyklen geöffnet und wieder
+angezogen werden. Schrauben die mit Schraubensicherungskleber
+gesichert waren müssen ausgetauscht werden.
+
+
+Einschalten
+
+Bemerkung: Alle M12-Steckverbinder sowohl am
+
+  rc_visard
+
+   als auch am
+
+  rc_randomdot
+
+   müssen
+
+  vor
+
+   dem Einschalten der Spannungsversorgung vollständig gesteckt und
+  gesichert sein.
+
+Nachdem das System an die Stromversorgung angeschlossen wurde, sollten
+die LEDs auf der Vorderseite des
+
+rc_randomdot
+
+ und
+
+rc_visard
+
+ sofort aufleuchten. Während des Bootvorgangs des
+
+rc_visard
+
+ wird seine LED die Farbe wechseln und schließlich grün werden. Dies
+signalisiert, dass alle Prozesse erfolgreich gestartet wurden. Die
+Status-LED des
+
+rc_randomdot
+
+ sollte sofort grün leuchten. Der
+
+rc_randomdot
+
+ blitzt während des Bootvorgangs mehrmals auf.
+
+Warnung: Während der Inbetriebnahme und des Betriebs zu keinem
+  Zeitpunkt in die Linse des
+
+  rc_randomdot
+
+   oder in den Lichtstrahl schauen.
+
+Zur Fehlersuche beim Bootvorgang und zur Netzwerkverbindung des
+
+rc_visard
+
+ lesen Sie bitte die Dokumentation des
+
+rc_visard
+
+ unter
+
+https://doc.rc-visard.com/latest/en/troubleshooting.html#led-colors
+
+.
+
+Bedienung des Projektors
+
+Der Projektor
+
+rc_randomdot
+
+ wird über den GPIO Out 1 des
+
+rc_visard
+
+ gesteuert. Ein Tutorial zur Bedienung des Projektors befindet sich
+unter:
+
+https://tutorials.roboception.de/rc_visard_general/projector.html
+
+.
+
+Bemerkung: Auf dem
+
+  rc_visard
+
+   ist eine gültige IOControl-Lizenz erforderlich. Sie ist im
+  Standard-Softwarepaket aller rc_visards enthalten, die ab 07/2020
+  gekauft werden. Zum Aufrüsten eines älteren
+
+  rc_visard
+
+   kann eine Lizenz unter
+
+  https://roboception.com/product/rc_reason-iocontrol
+
+   erworben werden.
+
+Zustand und Verhalten der GPIOs des
+
+rc_visard
+
+ können dann über das IOControl-Panel der WebGUI des
+
+rc_visard
+
+ auf der Registerkarte Module (bis Firmware 21.01) bzw. der
+Registrierkarte Konfiguration (ab Firmware 21.04) gesteuert werden.
+Beginnend mit
+
+rc_visard
+
+ Firmware 20.10 ist GPIO Out 1 standardmäßig auf
+
+Low
+
+ gesetzt und schaltet den Projektor aus.
+
+ExposureActive
+
+ schaltet den
+
+rc_randomdot
+
+ für genau die Belichtungszeit eines jeden Bildes ein.
+
+High
+
+ schaltet den Projektor kontinuierlich ein, reduziert aber die
+Leistung zum Schutz der Lichtquelle auf 18%.
+
+Typischerweise wird der Benutzer den Modus
+
+ExposureAlternateActive
+
+ wählen, in dem der
+
+rc_randomdot
+
+ nur für die Belichtungszeit jedes zweiten Bildes eingeschaltet ist.
+Bilder mit projiziertem Muster werden für die Berechnung von
+Tiefenbildern verwendet. Bilder ohne Muster können für Textur- oder
+andere Bildverarbeitungsmodule verwendet werden.
+
+Im Modus
+
+ExposureAlternateActive
+
+ sorgt der automatische Belichtungsalgorithmus des
+
+rc_visard
+
+ dafür, dass Bilder mit Muster korrekt belichtet werden, um dichte
+Disparitätsbilder zu erzeugen. Da für die Bilder ohne Muster, die in
+der WebGUI angezeigt werden, identische Belichtungseinstellungen
+verwendet werden, können diese je nach Gesamtbeleuchtungsverhältnissen
+unterbelichtet sein. Dieser Effekt kann durch die richtige Abstimmung
+von Umgebungslichtbedingungen, Projektorobjektivblende und
+Belichtungszeit minimiert werden.
+
+Anpassen von Fokus- und Blendeneinstellungen
+
+Entfernen Sie die Objektivschutzkappe des Objektivs, indem Sie diese
+abschrauben. Um Fokus- und Blendeneinstellungen zu ändern, lösen Sie
+die drei kleinen Kreuzschlitzschrauben am jeweiligen Objektivring,
+drehen Sie den Ring auf die gewünschte Einstellung und ziehen Sie die
+Schrauben wieder leicht an.
+
+Die Lage der Fokus- und Blendenringe finden Sie in
+
+Abb. 11
+
+.
+
+
+Für Fokuseinstellungen sollte der Projektor dauerhaft eingeschaltet
+werden, indem der GPIO Out 1-Modus des
+
+rc_visard
+
+ in der WebGUI auf High gesetzt wird. Für Blendeneinstellungen sollte
+GPIO Out 1 auf
+
+ExposureAlternateActive
+
+ und der Belichtungsmodus auf
+
+Auto
+
+ in der WebGUI-Registerkarte Kamera eingestellt werden. Unter
+
+https://tutorials.roboception.de/rc_visard_general/projector.html
+
+ finden Sie eine Anleitung, wie Sie dichte Tiefenbilder erhalten.
+
+Verringern Sie, ausgehend von der größten Blende (kleinste Blendenzahl
+am Projektorobjektiv), die Lichtleistung durch Verkleinern der Blende,
+bis die weißen (High Confidence) Bereiche im Konfidenzbild kleiner
+oder dunkler werden. Gleichzeitig sollte das Kamerabild immer weniger
+unterbelichtet sein.
+
+Öffnen Sie an dieser Stelle die Blende wieder ein klein wenig, um
+einen geeigneten Kompromiss zu finden. Ziehen Sie die kleinen
+Kreuzschlitzschrauben an den Fokus- und Blendenringen wieder an, um
+sie zu arretieren, und bringen Sie die Objektivschutzkappe wieder an,
+um die IP54-Einstufung und EMV-Kompatibilität des Projektors
+wiederherzustellen.

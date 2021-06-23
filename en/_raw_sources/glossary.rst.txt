@@ -1,0 +1,16 @@
+.. include:: global_rst.glb
+
+.. raw:: latex
+
+    \newpage
+
+.. _glossary:
+
+Glossary
+========
+
+
+.. glossary::
+  :sorted:
+
+  

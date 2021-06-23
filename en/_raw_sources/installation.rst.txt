@@ -1,0 +1,169 @@
+.. include:: global_rst.glb
+
+.. _sect-installation:
+
+Installation
+============
+
+.. index::
+   single: installation
+
+.. Warning:: The instructions on :ref:`sect-safety`:latex:`\:(Section \ref{safety:sect-safety})`
+  related to the |rc_randomdot| and |rc_visard| must be read and understood prior to installation.
+
+
+Mounting
+--------
+
+.. index::
+   single: mounting
+
+The |rd| offers a mounting-point setup with standard
+tripod thread at the bottom, and pivot points for the provided mounting bracket on either side.
+
+.. The |rd| *White* and |rd| *IR* offer identical mounting-point setups  with a standard
+.. tripod thread at the bottom, and pivot points for the provided mounting bracket on either side.
+
+.. figure:: images/rd_mount.*
+   :width: 140mm
+   :align: center
+
+   Mounting bracket for connecting the |rd| to the |rc_visard|
+
+For troubleshooting purposes, the projector may be mounted using the standardized tripod
+thread (UNC 1/4"-20) at the bottom of the housing. For mounting the |rd| on top of an |rc_visard|
+in static or low dynamic applications (e.g. above robot cells or on mobile platforms),
+the supplied mounting bracket must be attached to the |rc_visard|
+with two M4 x 10 8.8 machine screws, and the projector must be attached to the mounting bracket
+with two M4 x 10 8.8 machine screws at the pivot points. All screws must be tightened
+to 2.4 Nm and only TufLok nylon coated screws may be used. Alternatively screws need to be secured
+with a medium-strength threadlocking adhesive such as Loctite 243. Maximum thread depth is 6 mm.
+The supplied mounting bracket is not suitable for dynamic robot applications.
+It is the customer's responsibility to provide adequate mounting of the |rd|.
+
+.. Warning:: For permanent installations, the |rc_randomdot| must be mounted with four M4 x 10 8.8 machine screws
+  tightened to 2.4 Nm torque. Screws must be Tuflok coated or secured with threadlocking adhesive. Do not use high-strength bolts.
+
+.. Warning:: The supplied mounting bracket is not suitable for dynamic robot applications.
+  It is the customer's responsibility to provide adequate mounting of the |rd|.
+
+Depending on the working distance, it might be necessary to tilt the projector
+downwards to cover the complete filed of view of the |rc_visard|. This can be accomplished by loosening the
+screws attaching the |rd| to the mounting bracket at the pivot point, and moving the |rd| to the desired angle.
+
+.. index::
+   single: tilt
+
+.. figure:: images/rd_tilt.*
+   :width: 140mm
+   :align: center
+
+   Setting the desired tilt angle between |rd| and |rc_visard|
+
+Power-up
+--------
+
+.. index::
+  single: power-up
+
+.. Note:: Always fully connect and tighten all M12 connectors on the both the |rc_visard| and |rc_randomdot|
+  *before* turning on the power supply.
+
+After connecting the system to power, the LEDs on the front of the |rc_randomdot| and |rc_visard| should
+immediately illuminate. During the |rc_visard|'s boot process, it's LED will change
+color and will eventually turn green. This signals that all processes are up and
+running. The |rd|'s status LED should turn green right away. The |rd| projector will flash
+a number of times during the boot process.
+
+.. Warning:: Do not look into the lens of the |rd| or into the light beam at any point during startup or operation.
+
+For troubleshooting the |rc_visard|'s boot process and connections, please refer to the |rc_visard| documentation at
+https://doc.rc-visard.com/latest/en/troubleshooting.html#led-colors.
+
+Operating the projector
+-----------------------
+
+.. index::
+  single: operation
+  pair: IOControl; High
+  pair: IOControl; Low
+  pair: IOControl; ExposureActive
+  pair: IOControl; ExposureAlternateActive
+
+
+The |rc_randomdot| projector is controlled via the
+GPIO Out 1 of the |rc_visard|. For a tutorial on operating the projector, please refer to:
+https://tutorials.roboception.de/rc_visard_general/projector.html.
+
+.. Note:: A valid IOControl license is required on the |rc_visard|. It is included in the standard on-board software
+   package of all rc_visards purchased 07/2020 and thereafter. For upgrading an older |rc_visard|, please obtain
+   your license at https://roboception.com/product/rc_reason-iocontrol.
+
+.. .. _fig-WebGui_IOControl:
+.. .. figure:: images/WebGui_IOControl.*
+      :width: 100%
+      :align: center
+
+      WebGUI IOControl tab
+
+State and behaviour of the |rc_visard|'s GPIOs can then be controlled via the |rc_visard|'s WebGUI
+IOControl panel from the Modules tab. Starting with |rc_visard| firmware 20.10, GPIO Out 1 is set to *Low* by default,
+turning the projector off.
+*ExposureActive* turns on the |rc_randomdot| for exactly the exposure time of every image.
+*High* will turn the projector on continuosly, but reduce power to 18% to protect the light source.
+
+Typically, the user will select *ExposureAlternateActive* mode, in which the |rc_randomdot| is on only for the exposure
+time of every second image. Images with projected pattern are used for computing depth images. Images
+without pattern can be used for texture or other image processing modules.
+
+In *ExposureAlternateActive* mode, the |rc_visard|'s auto exposure algorithm ensures that images with pattern
+are correctly exposed in order to produce dense disparity images. As identical exposure settings are used for
+the images without pattern, which are displayed in the WebGUI, those might be underexposed depending on
+overall illumination conditions. This effect can be minimized by properly adjusting environmental light
+conditions, projector lens aperture, and exposure time.
+
+
+Adjusting focus and aperture settings
+-------------------------------------
+
+.. index::
+  single: adjusting focus
+  single: adjusting aperture
+
+
+Remove the |rd|'s protective lens cap by unscrewing it. To change focus and aperture settings, loosen the three
+small Phillips screws on the respective lens ring, turn the ring to the desired setting and lightly tighten the screws
+again.
+
+For the location of the focus and aperture rings, please refer to :numref:`fig-000-focus`.
+
+.. For the location of the focus and aperture rings, please refer to :numref:`fig-000-focus` for the |rd| *White*
+.. and to :numref:`fig-850-focus` for the |rd| *IR*.
+
+.. _fig-000-focus:
+.. figure:: images/rd_000_focus.*
+      :width: 12cm
+      :align: center
+
+      Focus and aperture rings on the |rc_randomdot| *White*
+
+
+.. .. _fig-850-focus:
+.. .. figure:: images/rd_850_focus.*
+      :width: 12cm
+      :align: center
+
+      Focus and aperture rings on the |rc_randomdot| *IR*
+
+For focus adjustments, the projector should be turned on permanently by setting the |rc_visard|'s GPIO Out 1 mode to High
+in the WebGUI. For aperture adjustments, GPIO Out 1 should be set to *ExposureAlternateActive* and exposure mode
+should be set to *Auto* in the WebGUI Camera tab. Please refer to https://tutorials.roboception.de/rc_visard_general/projector.html
+for a tutorial on how to obtain dense depth images.
+
+Starting from the largest aperture (smallest f-stop number on projector lens), reduce light output by decreasing
+the aperture until the white (high confidence) areas in the confidence image start to get smaller or darker. At the
+same time, the camera image should become less underexposed.
+
+At this point, slightly open the aperture again to find a suitable compromise.
+Retighten the small Phillips screws on the focus and aperture rings to lock them in place and
+replace the protective lens cap to restore the IP54 rating and EMC compatibility of the projector.

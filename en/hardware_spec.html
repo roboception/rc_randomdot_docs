@@ -1,0 +1,752 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hardware specification &mdash; rc_randomdot 0.9 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/default.css" type="text/css" />
+  
+
+  
+
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="rc_randomdot 0.9 documentation" href="index.html"/>
+        <link rel="next" title="Installation" href="installation.html"/>
+        <link rel="prev" title="Safety" href="safety.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> rc_randomdot
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                01
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="revisions.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="general.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="warranty.html">Warranty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html">Applicable standards</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="standards.html#approvals">Approvals</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html#electronical-and-safety-standards">Electronical and safety standards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html#environmental-regulation">Environmental regulation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="standards.html#eu-rohs-directive">EU RoHS Directive</a></li>
+<li class="toctree-l3"><a class="reference internal" href="standards.html#reach-regulation">REACH Regulation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="standards.html#available-certificates">Available certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="safety.html">Safety</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="safety.html#general-warnings">General warnings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="safety.html#intended-use">Intended use</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware specification</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#scope-of-delivery">Scope of delivery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technical-specification">Technical specification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mechanical-dimensions">Mechanical dimensions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#environmental-and-operating-conditions">Environmental and operating conditions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#power-supply-specifications">Power-supply specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wiring">Wiring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#electrical-properties">Electrical properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optical-properties">Optical properties</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#mounting">Mounting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#power-up">Power-up</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#operating-the-projector">Operating the projector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#adjusting-focus-and-aperture-settings">Adjusting focus and aperture settings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance.html">Maintenance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="maintenance.html#lens-cleaning">Lens cleaning</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accessories.html">Accessories</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accessories.html#connectivity-kit">Connectivity kit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessories.html#wiring">Wiring</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="accessories.html#power-connections">Power connections</a></li>
+<li class="toctree-l3"><a class="reference internal" href="accessories.html#power-supplies">Power supplies</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="accessories.html#spare-parts">Spare parts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#led-colors">LED colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#hardware-issues">Hardware issues</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contact.html#support">Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contact.html#address">Address</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">rc_randomdot</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Hardware specification</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="hardware-specification">
+<span id="sect-hardware-specification"></span><h1>Hardware specification<a class="headerlink" href="#hardware-specification" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The following hardware specifications are provided here as a general reference; differences with the product may exist.</p>
+</div>
+<div class="section" id="scope-of-delivery">
+<h2>Scope of delivery<a class="headerlink" href="#scope-of-delivery" title="Permalink to this headline">¶</a></h2>
+<p>Standard delivery for an <em>rc_randomdot</em> includes the <em>rc_randomdot</em> projector, the mounting
+bracket and 4 screws, a 30 cm cable to connect the <em>rc_randomdot</em> to the <em>rc_visard</em>, and a quickstart guide. The full
+manual is available in digital form at
+<a class="reference external" href="http://www.roboception.com/documentation">http://www.roboception.com/documentation</a>.</p>
+<p>The following picture shows the important parts of the <em>rc_randomdot</em> which are referenced later in the documentation.</p>
+<div class="figure align-center" id="id1">
+<span id="fig-rd-parts"></span><span id="index-0"></span><a class="reference internal image-reference" href="_images/rd_parts.png"><img alt="_images/rd_parts.png" src="_images/rd_parts.png" style="width: 140mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Parts description</span></p>
+</div>
+</div>
+<div class="section" id="technical-specification">
+<h2>Technical specification<a class="headerlink" href="#technical-specification" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="index-1"></span><span id="tab-common-hardware-specifications"></span><table border="1" class="docutils" id="id2">
+<caption><span class="caption-number">Table 1 </span><span class="caption-text">Technical specifications for the <em>rc_randomdot</em> <em>White</em></span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head"><em>rc_randomdot</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Illumination Mode</td>
+<td>Strobe</td>
+</tr>
+<tr class="row-odd"><td>Wavelength</td>
+<td>White (5500 K)</td>
+</tr>
+<tr class="row-even"><td>Working distance</td>
+<td>500 mm to 3000 mm</td>
+</tr>
+<tr class="row-odd"><td>Field of View</td>
+<td>62° x 48° (diagonal 75°)</td>
+</tr>
+<tr class="row-even"><td>Lens (C-Mount)</td>
+<td>1”, 12 mm, f min 1:1.4</td>
+</tr>
+<tr class="row-odd"><td>Lens Type</td>
+<td>VS Technology VS-1214H1</td>
+</tr>
+<tr class="row-even"><td>Power supply</td>
+<td>24 V (22 V to 29 V), 44 W (68 W including <em>rc_visard</em>)</td>
+</tr>
+<tr class="row-odd"><td>Connectors</td>
+<td>M12, 8 Pin, A-coded</td>
+</tr>
+<tr class="row-even"><td>Size (W x H x L)</td>
+<td>70 mm x 70 mm x 152 mm</td>
+</tr>
+<tr class="row-odd"><td>Weight</td>
+<td>~ 660 g</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="mechanical-dimensions">
+<h2>Mechanical dimensions<a class="headerlink" href="#mechanical-dimensions" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id3">
+<span id="index-2"></span><a class="reference internal image-reference" href="_images/rd_000_size.png"><img alt="_images/rd_000_size.png" src="_images/rd_000_size.png" style="width: 140mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Overall dimensions of the <em>rc_randomdot</em> <em>White</em></span></p>
+</div>
+<p id="index-3">CAD models of the <em>rc_randomdot</em> can be downloaded from <a class="reference external" href="http://www.roboception.com/download">http://www.roboception.com/download</a>. The CAD models are provided as-is,
+with no guarantee of correctness.</p>
+</div>
+<div class="section" id="environmental-and-operating-conditions">
+<h2>Environmental and operating conditions<a class="headerlink" href="#environmental-and-operating-conditions" title="Permalink to this headline">¶</a></h2>
+<p id="index-4">The <em>rc_randomdot</em> is designed for industrial applications. Always respect the storage, transport, and operating environmental
+conditions outlined in <a class="reference internal" href="#tab-hardware-environment"><span class="std std-numref">Table 2</span></a>.</p>
+<span id="tab-hardware-environment"></span><table border="1" class="docutils" id="id4">
+<caption><span class="caption-number">Table 2 </span><span class="caption-text">Environmental conditions</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="41%" />
+<col width="59%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head"><em>rc_randomdot</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Storage/Transport temperature</td>
+<td>-25 °C to 70 °C</td>
+</tr>
+<tr class="row-odd"><td>Operating temperature</td>
+<td>0 °C to 45 °C</td>
+</tr>
+<tr class="row-even"><td>Relative humidity (non condensing)</td>
+<td>20 % to 80 %</td>
+</tr>
+<tr class="row-odd"><td>Vibration</td>
+<td>2.5 g</td>
+</tr>
+<tr class="row-even"><td>Shock</td>
+<td>25 g</td>
+</tr>
+<tr class="row-odd"><td>Protection class</td>
+<td>IP54</td>
+</tr>
+<tr class="row-even"><td>Others</td>
+<td><ul class="first last simple">
+<li>Free from corrosive liquids or gases</li>
+<li>Free from explosive liquids or gases</li>
+<li>Free from powerful electromagnetic interference</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="index-5">The <em>rc_randomdot</em> is designed for an operating temperature (surrounding environment) of 0 °C to 45 °C and
+relies on convective (passive) cooling. Unobstructed airflow, especially around the cooling fins,
+needs to be ensured during use. The <em>rc_randomdot</em> should only be mounted on top of the <em>rc_visard</em> using the provided
+mechanical mounting interface, and all parts of the housing must remain uncovered. A free space of at least 10 cm extending in
+all directions from the two devices, and sufficient air exchange with the environment is
+required to ensure adequate cooling. Cooling fins must be free of dirt and other contamination.</p>
+<p id="index-6">The housing temperature depends on the exposure time, exposure mode, sensor orientation, and surrounding
+environmental temperatures. When the projector’s power LED temperature exceeds 75°C
+(corresponding to a housing temperature of approximately 60°C), the LED at the front will turn red.</p>
+</div>
+<div class="section" id="power-supply-specifications">
+<h2>Power-supply specifications<a class="headerlink" href="#power-supply-specifications" title="Permalink to this headline">¶</a></h2>
+<p id="index-7">The <em>rc_randomdot</em> needs to be supplied by a DC voltage source and will in turn power a connected <em>rc_visard</em>.
+The <em>rc_randomdot</em>’s standard package doesn’t include a DC power supply. The power supply contained
+in the connectivity kit may be used for initial setup.
+For permanent installation, it is the customer’s responsibility to provide suitable
+DC power. Each <em>rc_randomdot</em> and <em>rc_visard</em> pair must be connected to a separate power supply. Connection to domestic
+grid power is only allowed through a power supply according EN 62368-1.</p>
+<span id="tab-hardware-power"></span><table border="1" class="docutils" id="id5">
+<caption><span class="caption-number">Table 3 </span><span class="caption-text">Absolute maximum ratings for power supply</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="32%" />
+<col width="14%" />
+<col width="14%" />
+<col width="41%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head"><em>Min</em></th>
+<th class="head"><em>Nominal</em></th>
+<th class="head"><em>Max</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Supply voltage</td>
+<td>22.0 V</td>
+<td>24 V</td>
+<td>29.0 V</td>
+</tr>
+<tr class="row-odd"><td>Max power consumption</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>44 W</td>
+</tr>
+<tr class="row-even"><td>Max power consumption
+incl. <em>rc_visard</em></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>68 W</td>
+</tr>
+<tr class="row-odd"><td>Overcurrent protection</td>
+<td colspan="3">Supply must be fuse-protected to a maximum of 4 A</td>
+</tr>
+<tr class="row-even"><td>Standards compliance</td>
+<td colspan="3">see <a class="reference internal" href="standards.html#sect-standards"><span class="std std-ref">Electronical and safety standards</span></a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Exceeding maximum power rating values may lead to damage to the <em>rc_randomdot</em>, <em>rc_visard</em>, power
+supply, and connected equipment.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">A separate power supply must power each <em>rc_randomdot</em> and <em>rc_visard</em> pair.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Connection to domestic grid power is allowed through a power supply certified
+according to EN 62368 and as EN55011 Class B only.</p>
+</div>
+</div>
+<div class="section" id="wiring">
+<span id="sect-wiring"></span><h2>Wiring<a class="headerlink" href="#wiring" title="Permalink to this headline">¶</a></h2>
+<p id="index-8">Only a 30 cm cable connecting the <em>rc_randomdot</em> to the <em>rc_visard</em> is supplied with the standard package.
+It is the customer’s responsibility to obtain the proper cabling for connecting the <em>rc_randomdot</em> to
+power. A suggestion of components can be found in <a class="reference internal" href="accessories.html#sect-accessories"><span class="std std-ref">Accessories</span></a> .</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Proper cable management is mandatory. Cabling must always be secured to the <em>rc_visard</em> and <em>rc_randomdot</em>
+base with a strain-relief clamp so that no forces due to cable movements are exerted on the devices’
+M12 connectors. In robotic applications, enough slack needs to be provided to allow for full range of
+movement of the <em>rc_visard</em> and <em>rc_randomdot</em> without straining the cables.
+The cables’ minimum bend radii need to be observed.</p>
+</div>
+<p>The <em>rc_randomdot</em> provides an industrial 8-pin A-coded M12 plug connector for power and GPIO
+connectivity and an 8-pin A-coded M12 socket connector for connectivity to the <em>rc_visard</em>.
+Both connectors are located on the left side of the <em>rc_randomdot</em> as indicated in <a class="reference internal" href="#fig-rd-parts"><span class="std std-numref">Fig. 2</span></a>.
+Type and orientation of the connectors is shown in <a class="reference internal" href="#fig-pin-assignments"><span class="std std-numref">Fig. 4</span></a>.</p>
+<p>Connectors are rotated so that standard 90° angled connectors will exit horizontally, towards the back of the projector.</p>
+<p>The power supply must be connected to the top (plug) M12 connector of the <em>rc_randomdot</em>.
+Make sure to check the polarity of your power supply as reverse polarity will damage the
+<em>rc_randomdot</em>.
+The bottom (socket) M12 connector is connected to the bottom M12 connector of the <em>rc_visard</em> with the supplied
+30 cm M12 shielded cable.</p>
+<div class="figure align-center" id="id6">
+<span id="fig-pin-assignments"></span><a class="reference internal image-reference" href="_images/rd_connect.png"><img alt="_images/rd_connect.png" src="_images/rd_connect.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Pin positions for Power IN/GPIO (top) and <em>rc_visard</em> (bottom) connector</span></p>
+</div>
+<p id="index-9">Pin assignments for the Power IN connector are given in <a class="reference internal" href="#tab-power-pin-assignments"><span class="std std-numref">Table 4</span></a>.</p>
+<span id="tab-power-pin-assignments"></span><table border="1" class="docutils" id="id7">
+<caption><span class="caption-number">Table 4 </span><span class="caption-text">Pin assignments for the Power IN connector</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="15%" />
+<col width="59%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Pin</strong></th>
+<th class="head"><em>Assignment</em></th>
+<th class="head"><em>Reference</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>N/C</td>
+<td>/</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>+24 V  Power IN</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>GPIO In 1 Robot</td>
+<td>GPIO GND</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>GPIO GND</td>
+<td>GPIO GND</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>GPIO Vcc</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>GPIO Out 1 Robot (image exposure)</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>GND</td>
+<td>GND</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>GPIO Out 2</td>
+<td>chassis GND</td>
+</tr>
+</tbody>
+</table>
+<p>Pin assignments for the <em>rc_visard</em> connector are given in <a class="reference internal" href="#tab-rcv-pin-assignments"><span class="std std-numref">Table 5</span></a>.</p>
+<span id="tab-rcv-pin-assignments"></span><table border="1" class="docutils" id="id8">
+<caption><span class="caption-number">Table 5 </span><span class="caption-text">Pin assignments for the <em>rc_visard</em> connector</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="15%" />
+<col width="59%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Pin</strong></th>
+<th class="head"><em>Assignment</em></th>
+<th class="head"><em>Reference</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>GPIO Out 2 (Overtemp):
+1 = OK (24 V), 0 = !OK (0 V)</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>+24 V  Power OUT</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>GPIO Out 1</td>
+<td>chassis GND</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>GND (GPIO GND)</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>+24 V (GPIO Vcc)</td>
+<td>GND</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>GPIO In 1 (Light Trigger)</td>
+<td>GND</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>GND</td>
+<td>GND</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>GPIO In 2</td>
+<td>GND</td>
+</tr>
+</tbody>
+</table>
+<p>All GPIOs are decoupled by photocoupler.
+<em>GPIO In 1</em> needs to be connected to the <em>rc_visard</em> <em>GPIO Out 1</em> signal,
+which can be set to provide an exposure sync signal using the <em>rc_visard</em>’s IOControl module.
+A logic high level of the <em>rc_visard</em>’s <em>GPIO Out 1</em> signal triggers
+the projector light. The projector is <em>ON</em> as long as <em>GPIO In 1</em> is <em>HIGH</em>.</p>
+<p><em>GPIO Out 2</em> of the projector provides a ‘projector present’ signal that is high when an
+<em>rc_randomdot</em> projector is connected to the <em>rc_visard</em> and operating normally.
+The signal will transition to low during fault (overtemperature) conditions.
+The status of the <em>rc_visard</em> GPIOs is available in every image via the GigE Vision “Chunk Data”.
+For more details, please refer to <a class="reference external" href="https://doc.rc-visard.com/latest/en/gigevision.html#chunk-data">https://doc.rc-visard.com/latest/en/gigevision.html#chunk-data</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>The state of the <em>rc_randomdot</em> <em>GPIO In 1</em> is mirrored to <em>GPIO Out 1 Robot</em></li>
+<li>The state of the <em>rc_randomdot</em> <em>GPIO In 2</em> is mirrored to <em>GPIO Out 2 Robot</em></li>
+<li>The state of the <em>rc_randomdot</em> <em>GPIO In 1 Robot</em> is mirrored to <em>GPIO Out 1</em></li>
+</ul>
+</div>
+<p>Pins of unused GPIOs should be left floating.</p>
+<p>GPIO circuitry and specifications are shown in <a class="reference internal" href="#fig-gpio"><span class="std std-numref">Fig. 5</span></a>. The maximum rated voltage for
+<em>GPIO In</em> and <em>GPIO Vcc</em> is 29 V.</p>
+<div class="figure align-center" id="id9">
+<span id="fig-gpio"></span><a class="reference internal image-reference" href="_images/rd_gpio.png"><img alt="_images/rd_gpio.png" src="_images/rd_gpio.png" style="width: 160mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">GPIO circuitry and specifications – do not connect signals higher than 29 V</span></p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Do not connect signals with voltages higher than 29 V to the <em>rc_randomdot</em>.</p>
+</div>
+</div>
+<div class="section" id="electrical-properties">
+<span id="sect-mechanical"></span><h2>Electrical properties<a class="headerlink" href="#electrical-properties" title="Permalink to this headline">¶</a></h2>
+<p id="index-10">The power LED driver inside the <em>rc_randomdot</em> is set to automatically pulse the LED according to the state
+of the <em>GPIO In 1</em> trigger pin.</p>
+<p>For a short trigger pulse (&lt; 25 ms), the projector is driven at maximum power (projector LED maximum current of 2,2 A).
+If the pulse is longer, the driver automatically decreases projector LED current to 0,4 A (18% of max current)
+to protect the projector LED against damage.</p>
+<div class="figure align-center" id="id10">
+<span id="fig-timing"></span><a class="reference internal image-reference" href="_images/rd_timing.png"><img alt="_images/rd_timing.png" src="_images/rd_timing.png" style="width: 160mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Timing of the projector LED with respect to the <em>rc_randomdot</em> <em>GPIO In 1</em> pin</span></p>
+</div>
+<p><a class="reference internal" href="#fig-timing"><span class="std std-numref">Fig. 6</span></a> shows the timing properties of the <em>rc_randomdot</em> projector LED with respect to the
+<em>rc_randomdot</em>’s <em>GPIO In 1</em>. Please note that the <em>rc_randomdot</em> must be turned off for a minimum of 25 ms
+between light pulses. This limits the maximum allowed exposure time of the connected <em>rc_visard</em> to 15 ms in
+<em>ExposureActive</em> mode to prevent overheating of the <em>rc_randomdot</em>. It is the user’s responsibility to limit the
+exposure time of the <em>rc_visard</em> accordingly. In <em>ExposureAlternateActive</em> mode, the full 18 ms exposure time
+of the <em>rc_visard</em> may be used as only every second exposure triggers the <em>rc_randomdot</em>.</p>
+<p>For an in depth description of <em>rc_visard</em> projector control settings and operating modes,
+please refer to the IO and Projector Control section in the full <em>rc_visard</em> documentation at
+<a class="reference external" href="https://doc.rc-visard.com/latest/en/iocontrol.html">https://doc.rc-visard.com/latest/en/iocontrol.html</a> .</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">In <em>ExposureActive</em> mode, the exposure time of the <em>rc_visard</em> must be limited to a
+maximum of 15 ms to prevent overheating of the <em>rc_randomdot</em>. It is the user’s responsibility to ensure this setting.</p>
+</div>
+<span id="tab-statusled-hardware-specifications"></span><table border="1" class="docutils" id="id11">
+<caption><span class="caption-number">Table 6 </span><span class="caption-text">Status LED colors</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Status LED color</th>
+<th class="head"><em>rc_randomdot</em></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Red</td>
+<td>Overtemperature warning
+projector LED temperature &gt; 75 °C</td>
+</tr>
+<tr class="row-odd"><td>Green</td>
+<td>Power ON</td>
+</tr>
+<tr class="row-even"><td>Blue</td>
+<td>Trigger Signal active, projector LED ON</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="optical-properties">
+<h2>Optical properties<a class="headerlink" href="#optical-properties" title="Permalink to this headline">¶</a></h2>
+<p id="index-11">The <em>rc_randomdot</em> projects a rectangular pattern of semirandom dots with 50% density.
+Optimal working distance is between 500 mm and 3 m.
+Focus and the aperture can be adjusted with manual settings of the C-mount lens.</p>
+<div class="figure align-center" id="id12">
+<a class="reference internal image-reference" href="_images/rd_mask.png"><img alt="_images/rd_mask.png" src="_images/rd_mask.png" style="width: 80mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Projected pattern of semirandom dots with 50% density</span></p>
+</div>
+<div class="figure align-center" id="id13">
+<a class="reference internal image-reference" href="_images/rd_000_wavelength.png"><img alt="_images/rd_000_wavelength.png" src="_images/rd_000_wavelength.png" style="width: 100mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Emission spectrum of the <em>rc_randomdot</em> <em>White</em></span></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="safety.html" class="btn btn-neutral" title="Safety" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Roboception GmbH.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-cog"> Options</span>
+      en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Languages</dt>
+        
+          
+          <dd><a href="../en/hardware_spec.html">en</a></dd>
+          
+        
+          
+          <dd><a href="../de/hardware_spec.html">de</a></dd>
+          
+        
+      </dl>
+      
+      
+        <dl>
+          <dt>Downloads</dt>
+          
+            <dd><a href="../pdf/rc_randomdot_manual_en.pdf">PDF (en)</a></dd>
+          
+            <dd><a href="../pdf/rc_randomdot_manual_de.pdf">PDF (de)</a></dd>
+          
+        </dl>
+      
+
+    </div>
+  </div>
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.9',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

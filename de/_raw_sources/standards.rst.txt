@@ -1,0 +1,104 @@
+.. include:: global_rst.glb
+
+.. raw:: latex
+
+    \newpage
+
+.. |CE| image:: images/ce-mark_small.*
+
+.. |NRTL| image:: images/nrtl-mark_small.*
+
+.. |FCC| image:: images/fcc-mark_small.*
+
+.. |IP54| image:: images/ip54-mark_small.*
+
+.. |ROHS| image:: images/rohs-mark_small.*
+
+.. |WEEE| image:: images/weee-mark_small.*
+
+.. |UKCA| image:: images/ukca-mark_small.*
+
+Applicable standards
+====================
+
+Approvals
+---------
+
+The |rc_randomdot| has received the following approvals:
+
+|CE|
+    EC Declaration of Conformity
+
+|UKCA|
+    UK Conformity Assessed
+
+|NRTL|
+    NRTL Safety Certified by TÜV Süd
+
+|FCC|
+    Changes or modifications not expressly approved by the manufacturer could void the user’s authority to operate the equipment.
+    This device complies with Part 15 of the FCC rules. Operation is subject to the following two conditions:
+
+    1. This device may not cause harmful interference, and
+    2. this device must accept any interference received, including interference that may cause undesired operation.
+
+|IP54|
+    IP54 ingress protection according IEC standard 60529
+
+|ROHS|
+    ROHS compliant according to EU directive 2011/65/EU
+
+|WEEE|
+    WEEE compliant according to EU directive 2012/19/EC
+
+.. _sect-standards:
+
+Electronical and safety standards
+=================================
+
+The |rc_randomdot| has been tested to be in compliance with the following standards:
+
+* EN 55015:2013 : Electromagnetic compatibility (EMC) Directive (2014/30/EU),
+  Limits and methods of measurement of radio disturbance characteristics of electrical lighting and similar equipment
+* CISPR 15:2013 + IS1:2013 + IS2:2013 : Limits and methods of measurement of radio
+  disturbance characteristics of electrical lighting and similar equipment
+* EN 61547:2009 : Equipment for general lighting purposes - EMC immunity requirements
+* EN 61000-6-2 : Electromagnetic compatibility (EMC): Immunity standard for industrial environments
+* EN 61000-6-4 : Electromagnetic compatibility (EMC): Emission standard for industrial environments
+* EN/IEC/UL 62368-1:2014 : Audio/Video, Information and Communication Technology Equipment - Safety Requirements
+* EN 61010-1 : Safety requirements for electrical equipment for measurement, control, and laboratory use
+* CAN/CSA-C22.2 No. 62368-1:2014 Audio/Video, Information and Communication Technology Equipment - Safety Requirements
+* EN 62471:2008 / IEC 62471:2008 : Photobiological safety of lamps and lamp systems
+* Compliant with FCC 47 CFR Part 15B:2017: Radio Frequency Devices
+* Compliant for Canada according to CAN ICES-005(B)/NMB-005(B)
+
+Environmental regulation
+========================
+
+EU RoHS Directive
+-----------------
+
+As supplier of LED lighting systems, EFFILUX declares that the products manufactured by Effilux are compliant with the
+EU RoHS 2 Directive 2011/65/EU on the restriction of the use of certain hazardous substances in electrical and
+electronic equipment:
+
+* Lead (<0.1%)
+* Mercury (<0.1%)
+* Cadmium (<0.01%)
+* Hexavalent Chromium (<0.1%)
+* Polybromobiphényles (PBB) (<0.1%)
+* Polybromodiphényléthers (PBDE) (<0.1%)
+
+Items that are exempted in the RoHS Directive are excluded from these standards.
+
+REACH Regulation
+----------------
+
+As supplier of LED lighting systems, EFFILUX declares that the products manufactured by Effilux are compliant
+with REACH Regulation 1907/2006/CE. These products are not classified as hazardous. We hereby certify that these
+products do not contain any Substance of Very High Concern (SVHC) in amounts >0.1% (w/w).
+
+Available certificates
+======================
+
+Copies of the various certificates can be downloaded from https://roboception.com/product/random-dot-projector.

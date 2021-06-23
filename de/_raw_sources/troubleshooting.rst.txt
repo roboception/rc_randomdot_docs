@@ -1,0 +1,76 @@
+.. include:: global_rst.glb
+
+
+.. _sect-troubleshooting:
+
+Troubleshooting
+===============
+
+
+.. _sect-led-colors:
+
+LED colors
+----------
+
+.. index::
+  single: LED; colors
+
+During the boot process of the |rc_visard|, the |rd| will flash several times.
+The status LED will should turn green almost immediately. During normal operation
+the following colors of the |rd| can be observed.
+
+.. _tab-led-color:
+
+.. table:: |rd| status LED colors
+
+  +----------+----------------------------------+
+  |LED color | |rd| status                      |
+  +==========+==================================+
+  | red      | Overtemperature Warning:         |
+  |          | Projector temperature has        |
+  |          | exceeded 75°C                    |
+  +----------+----------------------------------+
+  | blue     | Trigger signal active            |
+  +----------+----------------------------------+
+  | green    | |rc_randomdot| is ready          |
+  +----------+----------------------------------+
+
+
+Hardware issues
+---------------
+
+**LED does not illuminate**
+
+The |rc_randomdot| does not start up.
+
+- Ensure that cables are connected and secured properly.
+- Ensure that adequate DC voltage (22 V to 29 V) with correct polarity is applied to the
+  power connector at the pins labeled as **Power** and **Ground** as described in
+  the device's :ref:`pin assignment specification<tab-power-pin-assignments>`:latex:`\:(Section \ref{hardware_spec:tab-power-pin-assignments})`.
+  Connecting the sensor to voltage outside of the specified range, to alternating current,
+  with reversed polarity, or to a supply with voltage spikes will lead to permanent hardware damage.
+
+**LED turns red while the projector appears to function normally**
+
+This may indicate a high housing and power LED temperature. The projector might be mounted in a position that
+obstructs free airflow around the cooling fins.
+
+- Clean cooling fins and housing.
+- Ensure a minimum of 10 cm free space in all directions around cooling fins to provide adequate convective cooling.
+- Ensure that ambient temperature is within specified range.
+
+The projector may turn off when cooling is insufficient or the ambient temperature exceeds the specified range.
+
+**Reliability issues and/or mechanical damage**
+
+This may be an indication of ambient conditions (vibration, shock, resonance, and temperature) being outside
+of specified range. Please refer to the :ref:`specification of environmental conditions<tab-hardware-environment>`:latex:`\ (Section \ref{hardware_spec:tab-hardware-environment})`.
+
+- Operating the |rc_randomdot| outside of specified ambient conditions might lead to damage and will void the warranty.
+
+**Electrical shock when touching the projector**
+
+This indicates an electrical fault in sensor, cabling, or power supply or adjacent system.
+
+- Immediately turn off power to the system, disconnect cables, and have a qualified electrician check the setup.
+- Ensure that the projector housing is properly grounded; check for large ground loops.

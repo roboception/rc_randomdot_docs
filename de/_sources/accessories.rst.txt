@@ -1,0 +1,151 @@
+Zubehör
+
+Anschlussset
+
+Zur Unterstützung des Kunden bei der Einrichtung von
+
+rc_visard
+
+ und
+
+rc_randomdot
+
+ bietet Roboception ein optionales Anschlussset an. Bei
+Festinstallation ist der Kunde für eine geeignete Stromversorgung
+verantwortlich. Das Anschlussset besteht aus folgenden Elementen:
+
+Netzwerkkabel mit gerader M12-Buchse und geradem RJ45-Stecker in
+wahlweise 2 m, 5 m oder 10 m Länge,
+
+Netzteilkabel mit gerader M12-Buchse und DC-Stecker in 30 cm Länge,
+
+24 V, 60 W Tischnetzteil.
+
+Für die Festinstallation ist der Kunde für eine geeignete
+Stromversorgung verantwortlich.
+
+Für den Anschluss des
+
+rc_visard
+
+ und
+
+rc_randomdot
+
+ an ein Wohn- oder Bürogebäudenetz ist ein Netzteil erforderlich, das
+den Emissionsstandards EN 55011 Klasse B und/oder EN 55032 Klasse B
+entspricht. Das im Anschlussset enthaltene Netzteil ist entsprechend
+zertifiziert. Es erfüllt jedoch nicht die Störfestigkeitsstandards für
+industrielle Umgebungen nach EN 61000-6-2.
+
+Verdrahtung
+
+Nur ein kurzes Kabel zur Verbindung von Strom und GPIOs zwischen
+
+rc_visard
+
+ und
+
+rc_randomdot
+
+ wird standardmäßig mit dem
+
+rc_randomdot
+
+ geliefert. Es kann verwendet werden, um einen
+
+rc_visard
+
+ dauerhaft mit einem darauf montierten
+
+rc_randomdot
+
+ zu verbinden. Für alle anderen Szenarien liegt es in der
+Verantwortung des Kunden, entsprechende Teile zu beschaffen. Die
+folgenden Abschnitte geben einen Überblick über die vorgeschlagenen
+Komponenten.
+
+Stromanschluss
+
+Der
+
+rc_randomdot
+
+ enthält einen 8-poligen A-codierten M12-Stecker für die
+Stromversorgung und GPIO-Verbindung zur Robotersteuerung. Verschiedene
+Verkabelungslösungen können von Drittanbietern bezogen werden. Eine
+Auswahl an M12-zu-Open-End-Kabeln finden Sie unten. Der Kunde muss die
+Stromversorgungs- und GPIO-Anschlüsse an den Kabeln gemäß den in
+
+Verdrahtung
+
+ beschriebenen Pinouts bereitstellen. Sowohl das Gehäuse des
+
+rc_visard
+
+ als auch das des
+
+rc_randomdot
+
+ müssen mit Masse verbunden werden.
+
+Sensor-/Aktor-Kabel mit M12-Buchse und einseitig offenem Ende
+
+Gerade M12-Buchse/Freies Leitungsende, geschirmt, 10m Länge: Phoenix
+Contact SAC-8P-10,0-PUR/M12FS SH, Art.Nr.: 1522891
+
+Gewinkelte M12-Buchse/Freies Leitungsende, 10m Länge geschirmt:
+Phoenix Contact SAC-8P-10,0-PUR/M12FR SH, Art.Nr.: 1522943
+
+Sensor/Aktor M12-Buchse für Feldanschluss
+
+Phoenix Contact SACC-M12FS-8CON-PG9-M, Art.Nr.:1513347
+
+TE Connectivity T4110001081-000 (Kunststoffgehäuse)
+
+Netzteile
+
+Der
+
+rc_visard
+
+ und der
+
+rc_randomdot
+
+ sind als EN-55011 Klasse B Geräte klassifiziert, und für
+kommerzielle, industrielle und geschäftliche Einsatzbereiche
+vorgesehen. Um den Sensor an ein Gebäudenetz anschließen zu können,
+wird ein Netzteil gemäß EN 55011/55022 Klasse B benötigt.
+
+Es liegt in der Verantwortung des Kunden, eine geeignete
+Spannungsversorgung für den dauerhaften Einsatz in industrieller
+Umgebung zu beschaffen und zu installieren. Ein Beispiel, das sowohl
+die EN 61000-6-2 als auch die EN 55011/55022 Klasse B erfüllt, ist das
+Hutschienen-Netzteil PULS MiniLine ML70.100 24V/DC 3 A der Firma PULS
+GmbH (
+
+http://www.pulspower.com
+
+). Die Installation muss von einer Elektrofachkraft durchgeführt
+werden.
+
+Es darf immer nur ein ein
+
+rc_visard
+
+ und ein dazugehöriger
+
+rc_randomdot
+
+ an eine Spannungsversorgung angeschlossen werden. Die Länge der
+verwendeten Kabel darf 30 Meter nicht überschreiten.
+
+Ersatzteile
+
+Für
+
+rc_randomdot
+
+ Geräte sind derzeit keine vom Anwender zu wartenden Ersatzteile
+verfügbar.

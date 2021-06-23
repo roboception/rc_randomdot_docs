@@ -1,0 +1,175 @@
+Sicherheit
+
+Warnung: Vor Inbetriebnahme des
+
+  rc_randomdot
+
+   muss der Bediener alle Anweisungen in diesem Handbuch gelesen und
+  verstanden haben.
+
+Warnung: Bei Betrieb des
+
+  rc_randomdot
+
+   mit
+
+  rc_visard
+
+   Produkt(en) muss der Bediener alle Sicherheits-, Installations- und
+  Wartungshinweise in der
+
+  rc_visard
+
+   Anleitung gelesen und verstanden haben.
+
+Bemerkung: Der Begriff "Bediener" bezieht sich auf jeden, der für
+  eine der folgenden Aufgaben verantwortlich ist, die in Verbindung
+  mit
+
+  rc_randomdot
+
+   ausgeführt werden:
+
+     Installation
+
+     Wartung
+
+     Inspektion
+
+     Kalibrierung
+
+     Programmierung
+
+     Außerbetriebnahme
+
+Dieses Handbuch erklärt die verschiedenen Komponenten des
+
+rc_randomdot
+
+ und die allgemeine Bedienung über den gesamten Lebenszyklus des
+Produkts, von der Installation über den Betrieb bis zur
+Außerbetriebnahme.
+
+Die Zeichnungen und Fotos in dieser Dokumentation sind repräsentative
+Beispiele; es können Unterschiede zum gelieferten Produkt bestehen.
+
+Allgemeine Sicherheitshinweise
+
+Bemerkung: Eine Verwendung des
+
+  rc_randomdot
+
+   unter Nichtbeachtung dieser Warnhinweise ist nicht bestimmungsgemäß
+  und kann zu Verletzungen oder Schäden führen sowie die
+  Gewährleistung erlöschen lassen.
+
+Warnung:
+
+  Schauen Sie nicht direkt in den projizierten Strahl. Schauen Sie
+  nicht mit einem optischen Instrument in den Strahl.
+
+  Der Blick in die Sonne durch das Objektiv kann zu Augenschäden
+  führen. Das Richten des Objektivs auf die Sonne kann einen Brand
+  auslösen.
+
+  Der rc_randomdot ist nach IP54 geschützt. Hohe Luftfeuchtigkeit oder
+  Temperatur können das Gerät beschädigen. Er darf nicht in einer
+  Umgebung benutzt werden, in der brennbare oder explosive Dämpfe
+  auftreten können.
+
+  Der rc_randomdot muss vor der Verwendung ordnungsgemäß befestigt
+  werden.
+
+  Der mitgelieferte Montagewinkel ist nicht für Roboteranwendungen
+  geeignet.
+
+  Alle Kabelsätze müssen am rc_randomdot und an der Halterung
+  befestigt werden.
+
+  Die Länge der verwendeten Kabel darf 30 Meter nicht überschreiten.
+
+  Zur Spannungsversorgung des rc_randomdot muss ein geeignetes
+  Netzteil verwendet werden, das der Norm EN 62368-1 entspricht.
+
+  Prüfen Sie die Polarität und die Anschlüsse.
+
+  Das Gehäuse des rc_randomdot muss geerdet sein.
+
+Warnung:
+
+  Die Sicherheitsrichtlinien des rc_randomdot und der zugehörigen
+  Geräte müssen immer eingehalten werden.
+
+  Der rc_randomdot fällt nicht in den Geltungsbereich der Maschinen-
+  oder Medizinrichtlinien.
+
+-[ Risikobewertung und endgültige Anwendung: Der
+
+rc_randomdot
+
+ darf an einem Roboter zusammen mit einem
+
+rc_visard
+
+ verwendet werden. Roboter,
+
+rc_visard
+
+,
+
+rc_randomdot
+
+ und alle anderen Geräte, die in der endgültigen Anwendung verwendet
+werden, müssen mit einer Risikobeurteilung bewertet werden. Es ist die
+Pflicht des Systemintegrators, die Einhaltung aller lokalen
+Sicherheitsmaßnahmen und Vorschriften zu gewährleisten. Je nach
+Anwendung kann es Risiken geben, die zusätzliche
+Schutz-/Sicherheitsmaßnahmen erfordern. ]-
+
+Verwendungszweck
+
+Der
+
+rc_randomdot
+
+ ist dazu bestimmt, in Kombination mit einem Roboception
+
+rc_visard
+
+ die Szenendichte zu erhöhen und damit die Qualität des Stereo-
+Matchings zu verbessern, wenn die natürliche Szenentextur gering ist.
+Der
+
+rc_randomdot
+
+ zusammen mit einem Roboception
+
+rc_visard
+
+ ist für die Installation an einem Roboter, einer automatisierten
+Maschine, einer mobilen Plattform oder einer stationären Anlage
+vorgesehen. Sie können auch zur Datenerfassung in anderen Anwendungen
+eingesetzt werden.
+
+Warnung: Der
+
+  rc_randomdot
+
+   ist
+
+  NICHT
+
+   für sicherheitskritische Anwendungen vorgesehen.
+
+Der
+
+rc_randomdot
+
+ darf nur im Rahmen seiner technischen Spezifikation verwendet werden.
+Jede andere Verwendung des Produkts gilt als nicht bestimmungsgemäß.
+Roboception haftet nicht für Schäden, die aus nicht bestimmungsgemäßer
+Verwendung resultieren.
+
+Warnung: Die lokalen und/oder nationalen Gesetze, Vorschriften und
+  Richtlinien zu Automationssicherheit und allgemeiner
+  Maschinensicherheit sind stets einzuhalten.

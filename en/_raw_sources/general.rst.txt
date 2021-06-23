@@ -1,0 +1,50 @@
+.. include:: global_rst.glb
+
+.. raw:: latex
+
+    \newpage
+
+.. _sect-general:
+
+Overview
+========
+
+The dot-matrix projector |rc_randomdot| is specifically tailored to be used with an
+|rc_visard|. The |rc_randomdot| is utilized when the perception of particularly difficult scenes with little or
+no natural texture is required. It can be mounted over a scene or directly on any
+|rc_visard|. By projecting a semirandom dot pattern, it increases the scene density and hence improves the quality of
+stereo matching when the natural scene texture is low.
+
+.. Unless explicitly stated otherwise, this guide applies to both the *White* and the *IR* version of the |rc_randomdot| projector.
+
+
+.. only:: roboception
+
+      .. figure:: images/rc_randomdot_white.*
+          :width: 70 %
+          :align: center
+
+          |rc_randomdot| *White*
+
+..      .. figure:: images/rc_randomdot.*
+          :width: 70 %
+          :align: center
+
+          |rc_randomdot| *White* and |rc_randomdot| *IR*
+
+The terms "projector", "|rc_randomdot| *White*", and "|rc_randomdot|" used throughout the manual
+all refer to the |manufacturer| |rc_randomdot|
+family of semirandom dot projectors with rectangular housing.
+Installation and control for all projectors are exactly the same, and all use the same mounting base.
+
+.. The terms "projector," "|rc_randomdot| *White*," and "|rc_randomdot| *IR*" used throughout the manual
+.. all refer to the |manufacturer| |rc_randomdot|
+.. family of semirandom dot projectors with rectangular housing.
+.. Installation and control for all projectors are exactly the same, and all use the same mounting base.
+
+.. Unless specified, the information provided in this manual applies to both the |rc_randomdot| *White* 
+.. and |rc_randomdot| *IR* versions of the |manufacturer| projectors.
+
+.. NOTE:: This manual uses the metric system and mostly uses the units meter and
+   millimeter. Unless otherwise specified, all dimensions in technical drawings are
+   in millimeters.

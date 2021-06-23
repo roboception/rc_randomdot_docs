@@ -1,0 +1,91 @@
+.. include:: global_rst.glb
+
+.. _sect-accessories:
+
+Accessories
+===========
+
+Connectivity kit
+----------------
+
+.. index::
+   single: cables
+   single: power cable
+
+.. only:: roboception
+
+  |company| offers an optional connectivity kit to aid customers with setting up the |rc_visard| and |rd|.
+  The connectivity kit consists of a:
+
+  - network cable with straight M12 plug to straight RJ45 connector in either 2 m, 5 m, or 10 m length,
+  - power adapter cable with straight M12 socket to DC barrel connector in 30 cm length,
+  - 24 V, 60 W desktop power supply.
+
+For permanent installation, the customer is responsible for providing a suitable power supply.
+
+Connecting the |rc_visard| and |rc_randomdot| to residential or office grid power requires a power
+supply that meets EN 55011 Class B emission standards and/or EN 55032 Class B emission standards.
+The power supply contained in the connectivity kit is certified accordingly. However, it does not meet
+immunity standards for industrial environments under EN 61000-6-2.
+
+Wiring
+------
+
+Only a short cable to connect power and GPIOs between |rc_visard| and |rc_randomdot|
+is supplied as standard equipment with the |rc_randomdot|. It can be used for permanently connecting
+an |rc_visard| to an |rd| mounted on top of it.
+It is the customer's responsibility to obtain appropriate parts for all other scenarios. The following
+sections provide an overview of suggested components.
+
+Power connections
+"""""""""""""""""
+
+.. index::
+   single: power cable
+
+The |rc_randomdot| contains an 8-pin A-coded M12 plug connector for power and GPIO connectivity
+to the robot controller. Various cabling solutions can be obtained from third party vendors.
+A selection of M12 to open ended cables is provided below. Customers are required to provide
+power and GPIO connections to the cables according to the pinouts described
+in :ref:`sect-wiring`:latex:`\:(Section \ref{hardware_spec:sect-wiring})`. Both
+the |rc_visard|'s and |rc_randomdot|'s housing must be connected to ground.
+
+**Sensor/Actor cable M12 socket to open end**
+
+- Straight M12 socket connector to open end, shielded, 10m length: Phoenix Contact SAC-8P-10,0-PUR/M12FS SH, Art.Nr.: 1522891
+- Angled M12 socket connector to open end, shielded 10m length: Phoenix Contact SAC-8P-10,0-PUR/M12FR SH, Art.Nr.: 1522943
+
+**Sensor/Actor M12 socket for field termination**
+
+- Phoenix Contact SACC-M12FS-8CON-PG9-M, Art.Nr.:1513347
+- TE Connectivity T4110001081-000 (plastic housing)
+
+Power supplies
+""""""""""""""
+
+.. index::
+   single: power supply
+
+The |rc_visard| and |rc_randomdot| are classified as EN-55011 Class B devices and are
+immune to light industrial and industrial environments. For connecting the sensor
+to residential grid power, a power supply under EN 55011/55022 Class B has to be used.
+
+It is the customer's responsibility to obtain and install a suitable power supply
+for permanent use in industrial environments.
+One example that satisfies both EN 61000-6-2 and EN 55011/55022 Class B is the DIN-Rail
+mounted PULS MiniLine ML70.100 24V/DC 3 A by PULS GmbH (http://www.pulspower.com).
+A certified electrician must perform installation.
+
+Only one set of |rc_visard| and |rc_randomdot| shall be connected to a power supply
+at any time, and the total length of cables must be less than 30 m.
+
+
+
+Spare parts
+-----------
+
+.. index::
+   single: spare parts
+
+No user-serviceable spare parts are currently available for |rc_randomdot|
+devices.

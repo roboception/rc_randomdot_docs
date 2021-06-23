@@ -1,0 +1,48 @@
+Überblick
+
+Der Punktmatrixprojektor
+
+rc_randomdot
+
+ ist speziell auf die Verwendung mit einem
+
+rc_visard
+
+ zugeschnitten. Der
+
+rc_randomdot
+
+ wird eingesetzt, wenn die Erfassung besonders schwieriger Szenarien
+mit wenig natürlicher Textur erforderlich ist. Er kann über der Szene
+oder direkt auf dem
+
+rc_visard
+
+ montiert werden. Die projizierten Punkte erhöhen die Szenendichte und
+verbessern damit die Qualität des Stereomatchings bei geringer
+natürlicher Textur.
+
+
+Die in diesem Handbuch verwendeten Begriffe "Projektor", "
+
+rc_randomdot
+
+
+White
+
+" und "
+
+rc_randomdot
+
+" beziehen sich alle auf die Familie der Semirandom-Dot-Projektoren
+
+rc_randomdot
+
+ von Effilux mit rechteckigem Gehäuse. Die Installation und Steuerung
+ist bei allen Projektoren exakt gleich und alle verwenden den gleichen
+Montagesockel.
+
+Bemerkung: Dieses Handbuch verwendet das metrische System und
+  benutzt meist die Einheiten Meter und Millimeter. Wenn nicht anders
+  angegeben, sind alle Maße in technischen Zeichnungen in Millimeter
+  angegeben.

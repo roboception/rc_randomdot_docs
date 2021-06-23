@@ -1,0 +1,502 @@
+Hardware-Spezifikation
+
+Bemerkung: Die folgenden Hardware-Spezifikationen dienen als
+  allgemeine Referenz; es können Unterschiede zum Produkt bestehen.
+
+Umfang der Lieferung
+
+Der Standard Lieferumfang für einen
+
+rc_randomdot
+
+ umfasst den
+
+rc_randomdot
+
+ Projektor, die Montagehalterung und 4 Schrauben, ein 30 cm langes
+Kabel zum Anschluss des
+
+rc_randomdot
+
+ an den
+
+rc_visard
+
+ und eine Schnellstartanleitung. Das vollständige Handbuch ist in
+digitaler Form unter
+
+http://www.roboception.com/documentation
+
+ verfügbar.
+
+Das folgende Bild zeigt die wichtigen Teile des
+
+rc_randomdot
+
+, auf die später in der Dokumentation verwiesen wird.
+
+
+Technische Spezifikation
+
+Technische Daten für den rc_randomdot White        rc_randomdot
+Beleuchtungsmodus  Stroboskop  Wellenlänge  Weiß (5500 K)
+Arbeitsabstand  500 mm bis 3000 mm  Projektionsfeld  62° x 48°
+(Diagonale 75°)  Objektiv (C-Mount)  1", 12 mm, f min 1:1,4  Objektiv
+Typ  VS Technology VS-1214H1  Netzteil  24 V (22 V bis 29 V), 44 W (68
+W einschließlich rc_visard)  Steckverbinder  M12, 8-polig, A-codiert
+Größe (B x H x L)  70 mm x 70 mm x 152 mm  Gewicht  ~ 660 g
+
+Mechanische Abmessungen
+
+
+CAD-Modelle des
+
+rc_randomdot
+
+ können unter
+
+http://www.roboception.com/download
+
+ heruntergeladen werden. Die CAD-Modelle werden im Ist-Zustand zur
+Verfügung gestellt, ohne Garantie auf Korrektheit.
+
+Umwelt- und Betriebsbedingungen
+
+Der
+
+rc_randomdot
+
+ ist für den industriellen Einsatz konzipiert. Die
+Umgebungsbedingungen für Lagerung, Transport und Betrieb, nach in
+
+Tab. 2
+
+ müssen beachtet werden.
+
+Umgebungsbedingungen        rc_randomdot  Lager-/Transporttemperatur
+-25 °C bis 70 °C  Betriebstemperatur  0 °C bis 45 °C  Relative
+Luftfeuchtigkeit (nicht kondensierend)  20 % to 80 %  Vibration  2.5 g
+Schock  25 g  Schutzklasse  IP54  Andere  Frei von korrosiven
+Flüssigkeiten oder Gasen  Frei von explosiven Flüssigkeiten oder Gasen
+Frei von starken elektromagnetischen Störungen
+
+Der
+
+rc_randomdot
+
+ ist für eine Betriebstemperatur (Umgebung) von 0 °C bis 45 °C
+ausgelegt und arbeitet mit einer konvektiven (passiven) Kühlung. Ein
+ungehinderter Luftstrom, insbesondere um die Kühlrippen, muss während
+des Einsatzes gewährleistet sein. Der
+
+rc_randomdot
+
+ darf nur über die mitgelieferte mechanische Montageschnittstelle auf
+den
+
+rc_visard
+
+ montiert werden, wobei alle Gehäuseteile unbedeckt bleiben müssen.
+Ein Freiraum von mindestens 10 cm in alle Richtungen zwischen den
+beiden Geräten und ein ausreichender Luftaustausch mit der Umgebung
+ist erforderlich, um eine ausreichende Kühlung zu gewährleisten. Die
+Kühlrippen müssen frei von Schmutz und anderen Verunreinigungen sein.
+
+Die Gehäusetemperatur hängt von der Belichtungszeit, dem
+Belichtungsmodus, der Kameraausrichtung und den Umgebungstemperaturen
+ab. Wenn die Temperatur der Power-LED des Projektors 75 °C
+überschreitet (entsprechend einer Gehäusetemperatur von ca. 60 °C),
+leuchtet die Status LED an der Vorderseite rot.
+
+Spezifikationen für die Spannungsversorgung
+
+Der
+
+rc_randomdot
+
+ muss durch einer Gleichspannungsquelle versorgt werden und versorgt
+seinerseits einen angeschlossenen
+
+rc_visard
+
+. Im Standardpaket des
+
+rc_randomdot
+
+ ist kein Gleichspannungsnetzteil enthalten. Für die Ersteinrichtung
+kann das im Connectivity Kit enthaltene Netzteil verwendet werden. Für
+eine dauerhafte Installation liegt es in der Verantwortung des Kunden,
+eine geeignete Gleichstromversorgung bereitzustellen. Jedes Paar
+
+rc_randomdot
+
+ und
+
+rc_visard
+
+ muss an eine separate Spannungsversorgung angeschlossen werden. Der
+Anschluss an das Hausstromnetz ist nur über eine Stromversorgung nach
+EN 62368-1 zulässig.
+
+Absolute Maximalwerte für die Spannungsversorgung            Min
+Nennwert  Max  Versorgungsspannung  22.0 V  24 V  29.0 V  Maximale
+Leistungsaufnahme      44 W  Maximale Leistungsaufnahme inkl.
+rc_visard      68 W  Überstromschutz  Die Versorgung muss mit maximal
+4 A abgesichert sein  Einhaltung von Normen  siehe Elektronische und
+Sicherheitsstandards:(Abschnitt \ref{standards:sect-standards})
+
+Warnung: Das Überschreiten der maximalen Leistungswerte kann zur
+  Beschädigung des
+
+  rc_randomdot
+
+  ,
+
+  rc_visard
+
+  , des Netzteils und der angeschlossenen Geräte führen.
+
+Warnung: Jedes zusammengehörende Gerätepaar
+
+  rc_randomdot
+
+   und
+
+  rc_visard
+
+   muss aus einer separaten Spannungsversorgung gespeist werden.
+
+Warnung: Der Anschluss an das Hausstromnetz ist nur über eine nach
+  EN 62368 und als EN55011 Klasse B zertifizierte Stromversorgung
+  zulässig.
+
+Verdrahtung
+
+Im Lieferumfang ist nur ein 30 cm langes Kabel enthalten, das den
+
+rc_randomdot
+
+ mit dem
+
+rc_visard
+
+ verbindet. Es liegt in der Verantwortung des Kunden, die richtige
+Verkabelung für den Anschluss des
+
+rc_randomdot
+
+ an die Stromversorgung zu beschaffen. Einen Vorschlag für Komponenten
+finden Sie unter
+
+Zubehör
+
+ .
+
+Warnung: Ein ordnungsgemäßes Kabelmanagement ist zwingend
+  erforderlich. Die Verkabelung muss immer mit einer
+  Zugentlastungsschelle am
+
+  rc_visard
+
+   /
+
+  rc_randomdot
+
+   Halter befestigt werden, damit keine Kräfte durch Kabelbewegungen
+  auf die M12-Steckverbinder der Geräte einwirken. In
+  Roboteranwendungen muss genügend Spielraum vorhanden sein, um den
+  vollen Bewegungsumfang des
+
+  rc_visard
+
+   und
+
+  rc_randomdot
+
+   zu ermöglichen, ohne die Kabel zu belasten. Die Mindestbiegeradien
+  der Kabel müssen beachtet werden.
+
+Der
+
+rc_randomdot
+
+ verfügt über einen 8-poligen, A-kodierten M12-Steckverbinder für die
+Stromversorgung und GPIO-Anschlüsse sowie über eine 8-polige,
+A-kodierte M12-Buchse für die Verbindung mit dem
+
+rc_visard
+
+. Beide Steckverbinder befinden sich auf der linken Seite des
+
+rc_randomdot
+
+, wie in
+
+Abb. 2
+
+ angegeben. Typ und Ausrichtung der Anschlüsse sind in
+
+Abb. 4
+
+ angegeben.
+
+Die Anschlüsse sind so gedreht, dass die standardmäßigen 90°
+abgewinkelten Anschlüsse horizontal zur Rückseite des Projektors
+herausgeführt werden.
+
+Die Spannungsversorgung muss an den oberen (Stecker) M12-Anschluss des
+
+rc_randomdot
+
+ angeschlossen werden. Achten Sie unbedingt auf die Polarität Ihres
+Netzteils, da eine Verpolung den
+
+rc_randomdot
+
+ beschädigt. Der untere (Buchse) M12-Anschluss wird mit dem
+mitgelieferten 30 cm langen geschirmten M12-Kabel an den unteren
+M12-Stecker des
+
+rc_visard
+
+ angeschlossen.
+
+
+Die Pinbelegung des Power IN-Anschlusses ist in
+
+Tab. 4
+
+ angegeben.
+
+Pinbelegung für den Power IN-Anschluss        Pin  Belegung  Bezug  1
+N/C  /  2  +24 V Leistung IN  GND  3  GPIO In 1 Roboter  GPIO GND  4
+GPIO GND  GPIO GND  5  GPIO Vcc  chassis GND  6  GPIO Out 1 Roboter
+(Bildaufnahme)  chassis GND  7  GND  GND  8  GPIO-Ausgang 2  chassis
+GND
+
+Die Pinbelegung für den
+
+rc_visard
+
+ Steckverbinder ist in
+
+Tab. 5
+
+ angegeben.
+
+Pinbelegung für den rc_visard Steckerverbinder        Pin  Belegung
+Bezug  1  GPIO Out 2 (Overtemp): 1 = OK (24 V), 0 = !OK (0 V)  chassis
+GND  2  +24 V Leistung OUT  GND  3  GPIO Out 1  chassis GND  4  GND
+(GPIO GND)  GND  5  +24 V (GPIO Vcc)  GND  6  GPIO In 1 (Trigger)  GND
+7  GND  GND  8  GPIO In 2  GND
+
+Alle GPIOs sind durch Optokoppler entkoppelt.
+
+GPIO In 1
+
+ muss mit dem
+
+rc_visard
+
+
+GPIO Out 1
+
+ Signal verbunden werden, das mit dem IOControl-Modul des
+
+rc_visard
+
+ als Belichtungs Sync Signal eingestellt werden kann. Ein logischer
+High-Pegel des
+
+GPIO Out 1
+
+-Signals des
+
+rc_visard
+
+ triggert den Projektor. Der Projektor ist
+
+EIN
+
+, solange
+
+GPIO In 1
+
+
+HIGH
+
+ ist.
+
+GPIO Out 2
+
+ des Projektors liefert ein "Projektor vorhanden"-Signal, das HIGH
+ist, wenn ein
+
+rc_randomdot
+
+-Projektor an den
+
+rc_visard
+
+ angeschlossen ist und normal arbeitet. Das Signal geht bei
+Fehlerzuständen (Übertemperatur) auf LOW. Der Status der
+
+rc_visard
+
+ GPIOs ist in jedem Bild über die GigE Vision "Chunk Data" verfügbar.
+Weitere Details finden Sie unter
+
+https://doc.rc-visard.com/latest/en/gigevision.html#chunk-data
+
+.
+
+Bemerkung:
+
+  Der Zustand des rc_randomdot GPIO In 1 wird auf GPIO Out 1 Robot
+  gespiegelt
+
+  Der Zustand des rc_randomdot GPIO In 2 wird auf GPIO Out 2 Robot
+  gespiegelt
+
+  Der Zustand des GPIO In 1 Robot wird auf GPIO Out 1 gespiegelt
+
+Pins von nicht verwendeten GPIOs sollten potentialfrei bleiben.
+
+GPIO-Schaltung und Spezifikationen sind in
+
+Abb. 5
+
+ dargestellt. Die maximale Nennspannung für
+
+GPIO In
+
+ und
+
+GPIO Vcc
+
+ beträgt 29 V.
+
+
+Warnung: Schließen Sie keine Signale mit Spannungen größer als 29 V
+  an den
+
+  rc_randomdot
+
+   an.
+
+Elektrische Eigenschaften
+
+Der Power-LED-Treiber im Inneren des
+
+rc_randomdot
+
+ ist so eingestellt, dass er die LED automatisch entsprechend dem
+Zustand des Triggerpins
+
+GPIO In 1
+
+ pulst.
+
+Bei einem kurzen Triggerimpuls (< 25 ms) wird der Projektor mit
+maximaler Leistung betrieben (Projektor-LED-Maximalstrom von 2,2 A).
+Ist der Impuls länger, senkt der Treiber den Projektor-LED-Strom
+automatisch auf 0,4 A (18% des Maximalstroms), um die Projektor-LED
+vor Schäden zu schützen.
+
+
+Abb. 6
+
+ zeigt die Timing-Eigenschaften der
+
+rc_randomdot
+
+ Projektor-LED in Bezug auf den
+
+GPIO In 1
+
+ des
+
+rc_randomdot
+
+. Bitte beachten Sie, dass der
+
+rc_randomdot
+
+ für mindestens 25 ms zwischen den Lichtimpulsen ausgeschaltet sein
+muss. Dies begrenzt die maximal zulässige Belichtungszeit des
+angeschlossenen
+
+rc_visard
+
+ auf 15 ms im
+
+ExposureActive
+
+-Modus, um eine Überhitzung der
+
+rc_randomdot
+
+ zu vermeiden. Es liegt in der Verantwortung des Anwenders, die
+Belichtungszeit der
+
+rc_visard
+
+ entsprechend zu begrenzen. Im Modus
+
+ExposureAlternateActive
+
+ kann die volle Belichtungszeit von 18 ms des
+
+rc_visard
+
+ genutzt werden, da nur jede zweite Belichtung den
+
+rc_randomdot
+
+ triggert.
+
+Eine ausführliche Beschreibung der
+
+rc_visard
+
+ Projektorsteuerungseinstellungen und Betriebsarten finden Sie im
+Abschnitt IO und Projektorsteuerung in der vollständigen
+
+rc_visard
+
+ Dokumentation unter
+
+https://doc.rc-visard.com/latest/en/iocontrol.html
+
+.
+
+Warnung: Im Modus
+
+  ExposureActive
+
+   muss die Belichtungszeit des
+
+  rc_visard
+
+   auf maximal 15 ms begrenzt werden, um eine Überhitzung des
+
+  rc_randomdot
+
+   zu vermeiden. Es liegt in der Verantwortung des Anwenders, diese
+  Einstellung sicherzustellen.
+
+Status-LED Farben      Farbe der Status-LED  rc_randomdot  Rot
+Übertemperaturwarnung Projektor LED-Temperatur > 75 °C  Grün  Bereit
+Blau  Triggersignal aktiv, Projektor-LED leuchtet
+
+Optische Eigenschaften
+
+Der
+
+rc_randomdot
+
+ projiziert ein rechteckiges Muster aus semirandomisierten Punkten mit
+50% Dichte. Der optimale Arbeitsabstand liegt zwischen 500 mm und 3 m.
+Der Fokus und die Blende können mit manuellen Einstellungen des C
+-Mount-Objektivs angepasst werden.
+

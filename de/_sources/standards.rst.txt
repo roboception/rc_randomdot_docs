@@ -1,0 +1,114 @@
+Zulassungen und Normen
+
+Genehmigungen
+
+Der
+
+rc_randomdot
+
+ hat die folgenden Zulassungen erhalten:
+
+   EG-Konformitätserklärung
+
+   UK Konformität geprüft
+
+   NRTL Sicherheit zertifiziert durch TÜV Süd
+
+   Konformitätserklärung nach FCC, Part 15 (betrifft die USA): Changes
+   or modifications not expressly approved by the manufacturer could
+   void the user’s authority to operate the equipment. This device
+   complies with Part 15 of the FCC rules. Operation is subject to the
+   following two conditions:
+
+   This device may not cause harmful interference, and
+
+   this device must accept any interference received, including
+   interference that may cause undesired operation.
+
+   IP54 Schutzart nach IEC-Norm 60529
+
+   ROHS-konform gemäß der EU-Richtlinie 2011/65/EU
+
+   WEEE-konform gemäß EU-Richtlinie 2012/19/EG
+
+Elektronische und Sicherheitsstandards
+
+Der
+
+rc_randomdot
+
+ wurde getestet und entspricht den Vorgaben der folgenden Normen:
+
+EN 55015:2013 : Richtlinie über die elektromagnetische Verträglichkeit
+(EMV) (2014/30/EU), Grenzwerte und Messverfahren für
+Funkstöreigenschaften von elektrischen Beleuchtungseinrichtungen und
+ähnlichen Geräten
+
+CISPR 15:2013 + IS1:2013 + IS2:2013 : Grenzwerte und Messverfahren für
+Funkstörungen von elektrischen Beleuchtungen und ähnlichen Geräten
+
+EN 61547:2009 : Einrichtungen für allgemeine Beleuchtungszwecke -
+Anforderungen an die EMV-Störfestigkeit
+
+EN 61000-6-2 : Elektromagnetische Verträglichkeit (EMV):
+Störfestigkeit für industrielle Umgebungen
+
+EN 61000-6-4 : Elektromagnetische Verträglichkeit (EMV):
+Störaussendung für industrielle Umgebungen
+
+EN/IEC/UL 62368-1:2014 : Audio/Video-, Informations- und
+Kommunikationstechnikgeräte - Sicherheitsanforderungen
+
+EN 61010-1 : Sicherheitsbestimmungen für elektrische Mess-, Steuer-,
+Regel- und Laborgeräte
+
+CAN/CSA-C22.2 Nr. 62368-1:2014 Audio-/Video-, Informations- und
+Kommunikationstechnikgeräte - Sicherheitsanforderungen
+
+EN 62471:2008 / IEC 62471:2008 : Photobiologische Sicherheit von
+Lampen und Lampensystemen
+
+Konform mit FCC 47 CFR Teil 15B:2017: Funkfrequenzgeräte
+
+Konform für Kanada nach CAN ICES-005(B)/NMB-005(B)
+
+Umweltvorschriften
+
+EU-RoHS-Richtlinie
+
+Als Anbieter von LED-Beleuchtungssystemen erklärt EFFILUX, dass die
+von Effilux hergestellten Produkte mit der EU-Richtlinie 2011/65/EU
+zur Beschränkung der Verwendung bestimmter gefährlicher Stoffe in
+Elektro- und Elektronikgeräten (RoHS 2) konform sind:
+
+Blei (<0,1%)
+
+Quecksilber (<0,1%)
+
+Cadmium (<0,01%)
+
+Hexavalentes Chrom (<0,1%)
+
+Polybromobiphényles (PBB) (<0,1%)
+
+Polybromdiphényléther (PBDE) (<0,1%)
+
+Verwendungen die im Anhang der RoHS-Richtline als von der Beschränkung
+ausgenommen aufgeführt sind, sind hiervon ausgeschlossen.
+
+REACH-Verordnung
+
+Als Lieferant von LED-Beleuchtungssystemen erklärt EFFILUX, dass die
+von Effilux hergestellten Produkte mit der REACH-Verordnung
+1907/2006/CE konform sind. Diese Produkte sind nicht als gefährlich
+eingestuft. Wir bestätigen hiermit, dass diese Produkte keine
+besonders besorgniserregende Substanz (SVHC) in Mengen >0,1% (w/w)
+enthalten.
+
+Verfügbare Zertifikate
+
+Kopien der verschiedenen Zertifikate können unter
+
+https://roboception.com/product/random-dot-projector
+
+ heruntergeladen werden.

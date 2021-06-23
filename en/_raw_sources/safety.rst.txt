@@ -1,0 +1,78 @@
+.. include:: global_rst.glb
+
+.. _sect-safety:
+
+Safety
+======
+
+.. Warning:: The operator must have read and understood all of the instructions in this
+   manual before handling the |rc_randomdot| product.
+
+.. Warning:: If operating the |rc_randomdot| with |rc_visard| product(s),
+   the operator must have read and understood all of the safety, installation,
+   and maintenance instructions given in the |rc_visard| manual.
+
+.. Note:: The term "operator" refers to anyone responsible for any of the following tasks
+   performed in conjunction with |rc_randomdot|:
+
+    * Installation
+    * Maintenance
+    * Inspection
+    * Calibration
+    * Programming
+    * Decommissioning
+
+This manual explains the |rc_randomdot|'s various components and general operations regarding the
+product's whole life-cycle, from installation through operation to decommissioning.
+
+The drawings and photos in this documentation are representative examples; differences may exist
+between them and the delivered product.
+
+General warnings
+----------------
+
+.. Note:: Any use of the |rc_randomdot| in noncompliance with these warnings is inappropriate and
+   may cause injury or damage as well as void the warranty.
+
+.. Warning::
+   * Do not look directly into the projected beam. Do not look at the beam with an optical instrument.
+   * Looking at the sun through the lens might cause damage to the eyes. Directing the lens at the sun might start a fire.
+   * The |rc_randomdot| is protected according to IP54. High humidity or temperature can damage the device. Do not
+     operate in an environment where combustible or explosive fumes may occur.
+   * The |rc_randomdot| needs to be properly mounted before use.
+   * The supplied mounting bracket is not suitable to mount the |rd| on a robot.
+   * All cable sets need to be secured to the |rc_randomdot| and the mount.
+   * Cables must not be longer than 30 m.
+   * An appropriate power supply, which conforms to the EN 62368-1 standard must be used to supply power to the |rc_randomdot|.
+   * Check polarity and connections.
+   * The |rc_randomdot|'s housing must be grounded.
+
+.. Warning::
+   * The |rc_randomdot|'s and any related equipment's safety guidelines must always be satisfied.
+   * The |rc_randomdot| does not fall under the purview of the machinery or medical directives.
+
+.. rubric::
+  Risk assessment and final application:
+  The |rc_randomdot| may be used on a robot together with an |rc_visard|. Robot,
+  |rc_visard|, |rc_randomdot|, and any other equipment used in the final
+  application must be evaluated with a risk assessment. The system integrator's duty is to
+  ensure respect for all local safety measures and regulations. Depending on the application,
+  there may be risks that need additional protection/safety measures.
+
+Intended use
+------------
+
+The |rc_randomdot| is intended to be used in combination with a |company| |rc_visard|
+to increase the scene density and hence improve the quality of stereo matching when the natural
+scene texture is low. The |rc_randomdot| together with a |company| |rc_visard| are intended for installation on a
+robot, automated machinery, mobile platform, or stationary equipment. They can also be used for data
+acquisition in other applications.
+
+.. Warning:: The |rc_randomdot| is **NOT** intended for safety critical applications.
+
+The |rc_randomdot| may be used only within the scope of its technical specification. Any other use of the
+product is deemed unintended use. |company| will not be liable for any damages resulting from any
+improper or unintended use.
+
+.. Warning:: Always comply with local and/or national laws, regulations and directives on automation
+   safety and general machine safety.
