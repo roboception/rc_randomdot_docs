@@ -140,10 +140,11 @@ EN 62368-1 zulässig.
 
 Absolute Maximalwerte für die Spannungsversorgung            Min
 Nennwert  Max  Versorgungsspannung  22.0 V  24 V  29.0 V  Maximale
-Leistungsaufnahme      44 W  Maximale Leistungsaufnahme inkl.
-rc_visard      68 W  Überstromschutz  Die Versorgung muss mit maximal
-4 A abgesichert sein  Einhaltung von Normen  siehe Elektronische und
-Sicherheitsstandards:(Abschnitt \ref{standards:sect-standards})
+Leistungsaufnahme      40 W  Maximale Leistungsaufnahme während
+Belichtung inkl. rc_visard      65 W  Überstromschutz  Die Versorgung
+muss mit maximal 2 A abgesichert sein  Einhaltung von Normen  siehe
+Elektronische und Sicherheitsstandards:(Abschnitt \ref{standards:sect-
+standards})
 
 Warnung: Das Überschreiten der maximalen Leistungswerte kann zur
   Beschädigung des

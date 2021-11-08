@@ -123,6 +123,9 @@ overall illumination conditions. This effect can be minimized by properly adjust
 conditions, projector lens aperture, and exposure time.
 
 
+
+.. _installation-adjusting:
+
 Adjusting focus and aperture settings
 -------------------------------------
 

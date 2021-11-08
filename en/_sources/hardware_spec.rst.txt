@@ -137,11 +137,11 @@ domestic grid power is only allowed through a power supply according
 EN 62368-1.
 
 Absolute maximum ratings for power supply            Min  Nominal  Max
-Supply voltage  22.0 V  24 V  29.0 V  Max power consumption      44 W
-Max power consumption incl. rc_visard      68 W  Overcurrent
-protection  Supply must be fuse-protected to a maximum of 4 A
-Standards compliance  see Electronical and safety standards\:(Section
-\ref{standards:sect-standards})
+Supply voltage  22.0 V  24 V  29.0 V  Max power consumption      40 W
+Max power consumption during exposure incl. rc_visard      65 W
+Overcurrent protection  Supply must be fuse-protected to a maximum of
+2 A  Standards compliance  see Electronical and safety
+standards\:(Section \ref{standards:sect-standards})
 
 Warning: Exceeding maximum power rating values may lead to damage to
   the

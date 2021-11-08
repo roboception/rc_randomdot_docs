@@ -224,12 +224,13 @@ grid power is only allowed through a power supply according EN 62368-1.
   +===================================+===============+===============+==============================================+
   |  Supply voltage                   | 22.0 V        | 24 V          | 29.0 V                                       |
   +-----------------------------------+---------------+---------------+----------------------------------------------+
-  |  Max power consumption            |               |               | 44 W                                         |
+  |  Max power consumption            |               |               | 40 W                                         |
   +-----------------------------------+---------------+---------------+----------------------------------------------+
-  |  Max power consumption            |               |               | 68 W                                         |
+  |  Max power consumption            |               |               | 65 W                                         |
+  |  during exposure                  |               |               |                                              | 
   |  incl. |rc_visard|                |               |               |                                              |
   +-----------------------------------+---------------+---------------+----------------------------------------------+
-  |  Overcurrent protection           | Supply must be fuse-protected to a maximum of 4 A                            |
+  |  Overcurrent protection           | Supply must be fuse-protected to a maximum of 2 A                            |
   +-----------------------------------+---------------+---------------+----------------------------------------------+
   |  Standards compliance             | see :ref:`sect-standards`:latex:`\:(Section \ref{standards:sect-standards})` |
   +-----------------------------------+---------------+---------------+----------------------------------------------+
