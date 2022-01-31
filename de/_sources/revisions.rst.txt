@@ -9,13 +9,13 @@ Revisionsinformationen.
 
 Dokumentationsversion
 
-  Rev 0.9, 08.11.2021
+  Rev 0.9, 31.01.2022
 
 Gilt für
 
 rc_randomdot
 
- Hardware Rev 01
+ Hardware Rev 0.2
 
     
    Hersteller
