@@ -8,13 +8,13 @@ revision information.
 
 DOCUMENTATION REVISION
 
-  Rev 0.9, Jan 31, 2022
+  Rev 1.0, Feb 01, 2022
 
 Applicable to
 
 rc_randomdot
 
- Hardware Rev 0.2
+ Hardware Rev 01
 
     
    Manufacturer
