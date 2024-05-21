@@ -98,7 +98,7 @@ Applicable to |rc_randomdot| Hardware Rev |version|
    | D-22926 Ahrensburg
    | Germany
    |
-   | Web: http://www.baslerweb.com
+   | Web: https://www.baslerweb.com
    | Email: info@baslerweb.com
    | Phone: +49 4102 463 0
    |
@@ -106,14 +106,14 @@ Applicable to |rc_randomdot| Hardware Rev |version|
 .. only:: matrixvision
 
    | **Distributor**
-   | MATRIX VISION GmbH
-   | Talstrasse 16
-   | D-71570 Oppenweiler
+   | Balluff GmbH
+   | Schurwaldstrasse 9
+   | D-73765 Neuhausen a.d.F.
    | Germany
    |
-   | Web: https://www.matrix-vision.com
-   | Email: info@matrix-vision.de
-   | Phone: +49 71 91 94 32-0
+   | Web: https://www.balluff.com
+   | Email: balluff@balluff.de
+   | Phone: +49 7158 173-0
    |
 
 

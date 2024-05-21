@@ -39,9 +39,15 @@ Information on disposal
 
 #. **WEEE registration number**
 
-   |company| is registered under the registration number DE 33323989 at the stiftung elektro-altgeräte register, 
-   Nordostpark 72, 90411 Nuremberg, Germany, as a producer of electrical and/or electronic equipment.
+   .. only:: roboception or schunk or matrixvision
 
+      |company| is registered under the registration number DE 33323989 at the stiftung elektro-altgeräte register, 
+      Nordostpark 72, 90411 Nuremberg, Germany, as a producer of electrical and/or electronic equipment.
+
+   .. only:: basler
+
+      |company| is registered under the registration number DE 83888045 at the stiftung elektro-altgeräte register,
+      Nordostpark 72, 90411 Nuremberg, Germany, as a producer of electrical and/or electronic equipment.
 
 #. **Collection and recovery quotas**
 

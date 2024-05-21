@@ -98,7 +98,9 @@ As supplier of LED lighting systems, EFFILUX declares that the products manufact
 with REACH Regulation 1907/2006/CE. These products are not classified as hazardous. We hereby certify that these
 products do not contain any Substance of Very High Concern (SVHC) in amounts >0.1% (w/w).
 
-Available certificates
-======================
+.. only:: roboception or schunk or matrixvision
 
-Copies of the various certificates can be downloaded from https://roboception.com/product/random-dot-projector.
+   Available certificates
+   ======================
+   
+   Copies of the various certificates can be downloaded from https://roboception.com/product/random-dot-projector.

@@ -22,10 +22,11 @@ rc_randomdot
 
 rc_visard
 
-, and a quickstart guide. The full manual is available in digital form
-at
+, and a quickstart guide.
 
-http://www.roboception.com/documentation
+The full manual is available in digital form at
+
+https://www.roboception.com/documentation
 
 .
 
@@ -55,7 +56,7 @@ rc_randomdot
 
  can be downloaded from
 
-http://www.roboception.com/download
+https://www.roboception.com/download
 
 . The CAD models are provided as-is, with no guarantee of correctness.
 

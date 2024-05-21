@@ -89,8 +89,8 @@ rc_randomdot
  an der Montagehalterung befestigt ist, der gewünschte Winkel
 eingestellt, und die Schrauben erneut mit 2,4 Nm angezogen. TufLok
 Schrauben können eine begrenzte Anzahl von Zyklen geöffnet und wieder
-angezogen werden. Schrauben die mit Schraubensicherungskleber
-gesichert waren müssen ausgetauscht werden.
+angezogen werden. Schrauben, die mit Schraubensicherungskleber
+gesichert waren, müssen ausgetauscht werden.
 
 
 Einschalten
@@ -166,8 +166,9 @@ rc_randomdot
 
 rc_visard
 
- gesteuert. Ein Tutorial zur Bedienung des Projektors befindet sich
-unter:
+ gesteuert.
+
+Ein Tutorial zur Bedienung des Projektors befindet sich unter:
 
 https://tutorials.roboception.de/rc_visard_general/projector.html
 
@@ -251,50 +252,137 @@ unterbelichtet sein. Dieser Effekt kann durch die richtige Abstimmung
 von Umgebungslichtbedingungen, Projektorobjektivblende und
 Belichtungszeit minimiert werden.
 
-Anpassen von Fokus- und Blendeneinstellungen
+Fokus einstellen
 
-Entfernen Sie die Objektivschutzkappe des Objektivs, indem Sie diese
-abschrauben. Um Fokus- und Blendeneinstellungen zu ändern, lösen Sie
-die drei kleinen Kreuzschlitzschrauben am jeweiligen Objektivring,
-drehen Sie den Ring auf die gewünschte Einstellung und ziehen Sie die
-Schrauben wieder leicht an.
+Werksseitig ist der Fokus des
 
-Die Lage der Fokus- und Blendenringe finden Sie in
+rc_randomdot
+
+ auf einen Abstand von 1.2 m eingestellt. Wenn der Projektor in einem
+deutlichen andern Arbeitsabstand genutzt wird, muss der Fokus
+möglicherweise angepasst werden. Eine perfekte Fokussierung des
+Projektors ist nicht nötig. Ein leicht unscharfes Projektionsmuster
+beeinträchtigt das  Tiefenbild nicht.
+
+Um die Schärfe des Projektionsmusters beurteilen zu können, sollte der
+Projektor dauerhaft eingeschaltet werden, indem in der Web GUI unter
+Kamera ‣ IOControl Einstellungen oder Konfiguration ‣ IOControl der
+
+Out1 / Projektor
+
+ Modus auf "High" gesetzt wird.
+
+Der Projektorfokus muss nur angepasst werden, wenn das
+Projektionsmuster sehr unscharf ist. In diesem Fall, entfernen Sie die
+Objektivschutzkappe des Objektivs, indem Sie diese abschrauben. Lösen
+Sie dann die drei kleinen Kreuzschlitzschrauben am Fokusring, wie in
 
 Abb. 11
 
-.
-
-
-Für Fokuseinstellungen sollte der Projektor dauerhaft eingeschaltet
-werden, indem der GPIO Out 1-Modus des
-
-rc_visard
-
- in der WebGUI auf High gesetzt wird. Für Blendeneinstellungen sollte
-GPIO Out 1 auf
-
-ExposureAlternateActive
-
- und der Belichtungsmodus auf
-
-Auto
-
- in der WebGUI-Registerkarte Kamera eingestellt werden. Unter
-
-https://tutorials.roboception.de/rc_visard_general/projector.html
-
- finden Sie eine Anleitung, wie Sie dichte Tiefenbilder erhalten.
-
-Verringern Sie, ausgehend von der größten Blende (kleinste Blendenzahl
-am Projektorobjektiv), die Lichtleistung durch Verkleinern der Blende,
-bis die weißen (High Confidence) Bereiche im Konfidenzbild kleiner
-oder dunkler werden. Gleichzeitig sollte das Kamerabild immer weniger
-unterbelichtet sein.
-
-Öffnen Sie an dieser Stelle die Blende wieder ein klein wenig, um
-einen geeigneten Kompromiss zu finden. Ziehen Sie die kleinen
-Kreuzschlitzschrauben an den Fokus- und Blendenringen wieder an, um
-sie zu arretieren, und bringen Sie die Objektivschutzkappe wieder an,
-um die IP54-Einstufung und EMV-Kompatibilität des Projektors
+ gezeigt. Dann drehen Sie den Fokusring bis das sichtbare
+Projektionsmuster scharf wird. Danach ziehen Sie die Schrauben wieder
+leicht fest und bringen Sie die Objektivschutzkappe an, um die
+IP54-Einstufung und EMV-Kompatibilität des Projektors
 wiederherzustellen.
+
+
+Blende einstellen
+
+Die Blende des
+
+rc_randomdot
+
+ beeinflusst die Helligkeit des Projektionsmuster. Standardmäßig ist
+die Blende des
+
+rc_randomdot
+
+ vollständig geöffnet, d.h. der Projektor hat die maximale Helligkeit.
+Die Blende sollte so eingestellt werden, dass der
+Helligkeitsunterschied zwischen Bildern, die mit Projektor aufgenommen
+werden, und Bildern ohne Projektor nicht zu groß ist, aber dass das
+Projektionsmuster trotzdem noch sichtbar ist in den Bildern, die mit
+Projektor aufgenommen werden. Um die korrekte Einstellung zu finden,
+stellen Sie sicher, dass die externe Beleuchtung im Arbeitsbereich der
+zu erwartenden Beleuchtung während des Betriebs entspricht, und dass
+die Kamera mit
+
+rc_randomdot
+
+ im gewünschten Abstand von der Szene montiert ist.
+
+Danach setzen Sie in der Web GUI unter Kamera, den Modus
+
+Belichtung
+
+ auf "Auto" und stellen Sie den
+
+Modus Belichtungsautomatik
+
+ auf "AdaptiveOut1". Weiterhin setzen Sie unter
+
+IOControl Einstellungen
+
+ den Modus
+
+Out1 / Projektor
+
+ auf "ExposureAlternateActive", damit jedes zweite Bild mit
+Projektionsmuster aufgenommen wird. Jetzt wird in der Textzeile unter
+den Livebildern der Wert
+
+Out1 Reduktion
+
+ in Prozent angezeigt.
+
+Der Wert
+
+Out1 Reduktion
+
+ beschreibt die Reduktion der Helligkeit des Bildes ohne Projektion
+verglichen mit der Helligkeit des Bildes mit Projektion. Der Wert
+sollte zwischen 10% und 20% liegen. Eine höhere
+
+Out1 Reduktion
+
+ bedeutet, dass der Projektor zu hell ist im Vergleich zu der externen
+Beleuchtung, was dazu führt, dass Bilder ohne Projektionsmuster zu
+dunkel sind. Deswegen sollte die externe Beleuchtung erhöht werden,
+z.B. durch Anbringen einer zusätzlichen Lichtquelle, oder die
+Helligkeit des Projektors sollte durch leichtes Schließen der Blende
+verringert wird. Wenn die
+
+Out1 Reduktion
+
+ zu niedrig ist, ist der Projektor nicht hell genug im Vergleich zum
+Umgebungslicht, was bedeutet, dass das Projektionsmuster in den
+Kamerabildern kaum sichtbar ist, und somit die Tiefenbildberechnung
+nicht verbessern kann. Also sollte das Umgebungslicht reduziert
+werden, oder die Helligkeit des Projektors sollte durch Öffnen der
+Blende erhöht werden.
+
+Zum Anpassen der Projektorblende, entfernen Sie die
+Objektivschutzkappe des Objektivs, indem Sie diese abschrauben. Danach
+lösen Sie die drei kleinen Kreuzschlitzschrauben am Blendenring des
+Projektorobjektivs, wie in
+
+Abb. 11
+
+ gezeigt. Dann drehen Sie den Blendenring bis der Wert für die
+
+Out1 Reduktion
+
+ zwischen 10% und 20% liegt.
+
+Danach sollte das dunkelste Objekt, das in der Anwendung vorkommen
+kann, im Arbeitsbereich der Kamera platziert werden. Wenn dieses
+Objekt im Tiefenbild nicht gut sichtbar ist, sollte die Helligkeit des
+Projektors weiter erhöht werden, auch wenn die
+
+Out1 Reduktion
+
+ bereits hoch ist.
+
+Am Ende ziehen Sie die Schrauben wieder leicht fest und bringen Sie
+die Objektivschutzkappe an, um die IP54-Einstufung und EMV-
+Kompatibilität des Projektors wiederherzustellen.

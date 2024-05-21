@@ -11,9 +11,15 @@ Scope of delivery
 -----------------
 
 Standard delivery for an |rc_randomdot| includes the |rc_randomdot| projector, the mounting
-bracket and 4 screws, a 30 cm cable to connect the |rc_randomdot| to the |rc_visard|, and a quickstart guide. The full
-manual is available in digital form at
-http://www.roboception.com/documentation.
+bracket and 4 screws, a 30 cm cable to connect the |rc_randomdot| to the |rc_visard|, and a quickstart guide.
+
+.. only:: roboception or schunk or matrixvision
+
+   The full manual is available in digital form at https://www.roboception.com/documentation.
+
+.. only:: basler
+   
+   The full manual is available in digital form at https://www.baslerweb.com/baslermedia/3d.
 
 The following picture shows the important parts of the |rc_randomdot| which are referenced later in the documentation.
 
@@ -141,9 +147,16 @@ Mechanical dimensions
 .. index::
    single: CAD model
 
-CAD models of the |rc_randomdot| can be downloaded from http://www.roboception.com/download. The CAD models are provided as-is,
-with no guarantee of correctness.
 
+.. only:: roboception or schunk or matrixvision
+
+   CAD models of the |rc_randomdot| can be downloaded from https://www.roboception.com/download. The CAD models are provided as-is,
+   with no guarantee of correctness.
+
+.. only:: basler
+
+   CAD models of the |rc_randomdot| can be downloaded from https://www.baslerweb.com/baslermedia/3d. The CAD models are provided as-is,
+   with no guarantee of correctness.
 
 Environmental and operating conditions
 --------------------------------------
