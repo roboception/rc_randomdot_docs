@@ -277,7 +277,12 @@ screws attaching the <em>rc_randomdot</em> to the mounting bracket at the pivot 
 </div>
 <div class="section" id="power-up">
 <h2>Power-up<a class="headerlink" href="#power-up" title="Permalink to this headline">¶</a></h2>
-<div class="admonition note" id="index-3">
+<p id="index-3">After mounting the projector on the <em>rc_visard</em>, connect power and network cables as shown in the following drawing:</p>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="_images/rc_randomdot_connect.png"><img alt="_images/rc_randomdot_connect.png" src="_images/rc_randomdot_connect.png" style="width: 140mm;" /></a>
+<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Connections on <em>rc_randomdot</em> and <em>rc_visard</em></span></p>
+</div>
+<div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Always fully connect and tighten all M12 connectors on the both the <em>rc_visard</em> and <em>rc_randomdot</em>
 <em>before</em> turning on the power supply.</p>
@@ -297,7 +302,7 @@ a number of times during the boot process.</p>
 <div class="section" id="operating-the-projector">
 <h2>Operating the projector<a class="headerlink" href="#operating-the-projector" title="Permalink to this headline">¶</a></h2>
 <p id="index-4">The <em>rc_randomdot</em> projector is controlled via the GPIO Out 1 of the <em>rc_visard</em>.</p>
-<p>For a tutorial on operating the projector, please refer to: <a class="reference external" href="https://tutorials.roboception.de/rc_visard_general/projector.html">https://tutorials.roboception.de/rc_visard_general/projector.html</a>.</p>
+<p>For a tutorial on operating the projector, please refer to:https://tutorials.roboception.de/image_tuning/projector.html</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">A valid IOControl license is required on the <em>rc_visard</em>. It is included in the standard on-board software
@@ -328,13 +333,13 @@ by setting the <em>Out1 / Projector</em> mode to <code class="docutils literal n
 <span class="menuselection">Camera ‣ IOControl Settings</span> or <span class="menuselection">Configuration ‣ IOControl</span>.</p>
 <p>The projector focus only needs to be adjusted when the projector pattern is strongly blurred.
 In this case, remove the <em>rc_randomdot</em>’s protective lens cap by unscrewing it. Then loosen the three small
-fixing Phillips screws on the focus ring as shown in <a class="reference internal" href="#fig-000-focus"><span class="std std-numref">Fig. 11</span></a>.
+fixing Phillips screws on the focus ring as shown in <a class="reference internal" href="#fig-000-focus"><span class="std std-numref">Fig. 12</span></a>.
 Then, turn the focus ring until the visible projector pattern becomes sharp.
 After that, lightly tighten the focus ring screws again and replace the protective lens cap to restore the IP54 rating
 and EMC compatibility of the projector.</p>
-<div class="figure align-center" id="id3">
+<div class="figure align-center" id="id4">
 <span id="fig-000-focus"></span><a class="reference internal image-reference" href="_images/rd_000_focus.png"><img alt="_images/rd_000_focus.png" src="_images/rd_000_focus.png" style="width: 12cm;" /></a>
-<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Focus and aperture ring on the <em>rc_randomdot</em> <em>White</em></span></p>
+<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text">Focus and aperture ring on the <em>rc_randomdot</em> <em>White</em></span></p>
 </div>
 </div>
 <div class="section" id="adjusting-aperture">
@@ -360,7 +365,7 @@ light source, or the brightness of the projector should be reduced by slightly c
 which means that the projector pattern will hardly be visible in the camera images and cannot enhance the depth computation.
 So the external light should be reduced or the projector brightness must be increased by opening the aperture.</p>
 <p>The aperture of the projector can be adjusted by removing the <em>rc_randomdot</em>’s protective lens cap by unscrewing it. Then loosen
-the three small fixing Phillips screws on the aperture ring as shown in <a class="reference internal" href="#fig-000-focus"><span class="std std-numref">Fig. 11</span></a>.
+the three small fixing Phillips screws on the aperture ring as shown in <a class="reference internal" href="#fig-000-focus"><span class="std std-numref">Fig. 12</span></a>.
 Now turn the ring until the <em>Out1 reduction</em> value is in the range between 10% and 20%.</p>
 <p>After that, the darkest object that is possible in the application should be placed in the field of view of the camera.
 If the dark object is not properly visible in the depth image, then the projector brightness must be increased,

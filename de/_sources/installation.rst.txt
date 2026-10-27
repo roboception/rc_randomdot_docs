@@ -95,6 +95,11 @@ gesichert waren, müssen ausgetauscht werden.
 
 Einschalten
 
+Nach der Installation des Projektors auf dem rc_visard müssen die
+Strom- und Netzwerkkabel wie in der folgenden Zeichnung gezeigt
+angeschlossen werden.
+
+
 Bemerkung: Alle M12-Steckverbinder sowohl am
 
   rc_visard
@@ -170,7 +175,7 @@ rc_visard
 
 Ein Tutorial zur Bedienung des Projektors befindet sich unter:
 
-https://tutorials.roboception.de/rc_visard_general/projector.html
+https://tutorials.roboception.de/image_tuning/projector.html
 
 .
 
@@ -277,7 +282,7 @@ Projektionsmuster sehr unscharf ist. In diesem Fall, entfernen Sie die
 Objektivschutzkappe des Objektivs, indem Sie diese abschrauben. Lösen
 Sie dann die drei kleinen Kreuzschlitzschrauben am Fokusring, wie in
 
-Abb. 11
+Abb. 12
 
  gezeigt. Dann drehen Sie den Fokusring bis das sichtbare
 Projektionsmuster scharf wird. Danach ziehen Sie die Schrauben wieder
@@ -366,7 +371,7 @@ Objektivschutzkappe des Objektivs, indem Sie diese abschrauben. Danach
 lösen Sie die drei kleinen Kreuzschlitzschrauben am Blendenring des
 Projektorobjektivs, wie in
 
-Abb. 11
+Abb. 12
 
  gezeigt. Dann drehen Sie den Blendenring bis der Wert für die
 

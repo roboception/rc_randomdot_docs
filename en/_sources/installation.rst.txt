@@ -88,6 +88,13 @@ rc_randomdot
 
 Power-up
 
+After mounting the projector on the
+
+rc_visard
+
+, connect power and network cables as shown in the following drawing:
+
+
 Note: Always fully connect and tighten all M12 connectors on the
   both the
 
@@ -157,11 +164,8 @@ rc_visard
 
 .
 
-For a tutorial on operating the projector, please refer to:
-
-https://tutorials.roboception.de/rc_visard_general/projector.html
-
-.
+For a tutorial on operating the projector, please refer
+to:https://tutorials.roboception.de/image_tuning/projector.html
 
 Note: A valid IOControl license is required on the
 
@@ -264,7 +268,7 @@ rc_randomdot
 's protective lens cap by unscrewing it. Then loosen the three small
 fixing Phillips screws on the focus ring as shown in
 
-Fig. 11
+Fig. 12
 
 . Then, turn the focus ring until the visible projector pattern
 becomes sharp. After that, lightly tighten the focus ring screws again
@@ -350,7 +354,7 @@ rc_randomdot
 's protective lens cap by unscrewing it. Then loosen the three small
 fixing Phillips screws on the aperture ring as shown in
 
-Fig. 11
+Fig. 12
 
 . Now turn the ring until the
 
